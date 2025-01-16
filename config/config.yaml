@@ -1,0 +1,24 @@
+# MongoDB Blog Generator Configuration
+
+# API Keys (set these in .env file)
+required_env_vars:
+  - OPENAI_API_KEY
+  - GOOGLE_API_KEY
+  - GOOGLE_CSE_ID
+
+# Blog Settings
+blog_settings:
+  min_words: 1500
+  max_words: 2000
+  default_author: "AI Blog Generator"
+
+# File Paths
+paths:
+  blogs_dir: "data/blogs"
+  temp_dir: "data/temp"
+
+# Web Search Settings
+search_settings:
+  max_results: 10
+  search_depth: 3
+  timeout: 30

@@ -1,0 +1,491 @@
+2025-01-16 15:52:38,670 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-16 15:52:38,671 - crew.blog_crew - INFO - Found 0 blog files
+2025-01-16 15:52:43,930 - crew.blog_crew - INFO - Initializing BlogCrew with topic: AI-chosen topic
+2025-01-16 15:52:43,931 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-16 15:52:43,931 - agents.planner - INFO - Creating PlannerAgent
+2025-01-16 15:52:43,931 - tools.web_tools - INFO - Initializing web search tool
+2025-01-16 15:52:43,939 - tools.web_tools - DEBUG - Google Search API initialized successfully
+2025-01-16 15:52:43,945 - agents.planner - INFO - PlannerAgent created successfully
+2025-01-16 15:52:43,946 - agents.researcher - INFO - Creating ResearcherAgent
+2025-01-16 15:52:43,946 - tools.web_tools - INFO - Initializing web search tool
+2025-01-16 15:52:43,948 - tools.web_tools - DEBUG - Google Search API initialized successfully
+2025-01-16 15:52:43,950 - agents.researcher - INFO - ResearcherAgent created successfully with 2 tools
+2025-01-16 15:52:43,950 - agents.writer - INFO - Creating WriterAgent
+2025-01-16 15:52:43,951 - agents.writer - INFO - WriterAgent created successfully
+2025-01-16 15:52:43,951 - agents.editor - INFO - Creating EditorAgent
+2025-01-16 15:52:43,953 - agents.editor - INFO - EditorAgent created successfully
+2025-01-16 15:52:43,954 - crew.blog_crew - INFO - All agents created successfully
+2025-01-16 15:52:43,954 - crew.blog_crew - INFO - Starting blog creation process
+2025-01-16 15:52:43,954 - crew.blog_crew - INFO - Creating blog generation tasks
+2025-01-16 15:52:43,954 - crew.blog_crew - DEBUG - Creating planning task
+2025-01-16 15:52:43,954 - agents.planner - INFO - Creating task prompt with topic: AI-chosen topic
+2025-01-16 15:52:43,954 - agents.planner - DEBUG - Created AI-chosen topic prompt
+2025-01-16 15:52:43,954 - agents.planner - INFO - Task prompt created successfully
+2025-01-16 15:52:43,955 - crew.blog_crew - ERROR - Error in blog creation process: 'str' object has no attribute 'get'
+2025-01-16 15:52:43,959 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-16 15:52:43,960 - crew.blog_crew - INFO - Found 0 blog files
+2025-01-16 15:54:25,267 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-16 15:54:25,267 - crew.blog_crew - INFO - Found 0 blog files
+2025-01-16 15:55:24,633 - crew.blog_crew - INFO - Initializing BlogCrew with topic: AI-chosen topic
+2025-01-16 15:55:24,633 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-16 15:55:24,633 - agents.planner - INFO - Creating PlannerAgent
+2025-01-16 15:55:24,633 - tools.web_tools - INFO - Initializing web search tool
+2025-01-16 15:55:24,642 - tools.web_tools - DEBUG - Google Search API initialized successfully
+2025-01-16 15:55:24,649 - agents.planner - INFO - PlannerAgent created successfully
+2025-01-16 15:55:24,650 - agents.researcher - INFO - Creating ResearcherAgent
+2025-01-16 15:55:24,650 - tools.web_tools - INFO - Initializing web search tool
+2025-01-16 15:55:24,653 - tools.web_tools - DEBUG - Google Search API initialized successfully
+2025-01-16 15:55:24,655 - agents.researcher - INFO - ResearcherAgent created successfully with 2 tools
+2025-01-16 15:55:24,655 - agents.writer - INFO - Creating WriterAgent
+2025-01-16 15:55:24,656 - agents.writer - INFO - WriterAgent created successfully
+2025-01-16 15:55:24,656 - agents.editor - INFO - Creating EditorAgent
+2025-01-16 15:55:24,657 - agents.editor - INFO - EditorAgent created successfully
+2025-01-16 15:55:24,657 - crew.blog_crew - INFO - All agents created successfully
+2025-01-16 15:55:24,657 - crew.blog_crew - INFO - Starting blog creation process
+2025-01-16 15:55:24,657 - crew.blog_crew - INFO - Creating blog generation tasks
+2025-01-16 15:55:24,657 - crew.blog_crew - DEBUG - Creating planning task
+2025-01-16 15:55:24,657 - agents.planner - INFO - Creating task prompt with topic: AI-chosen topic
+2025-01-16 15:55:24,658 - agents.planner - DEBUG - Created AI-chosen topic prompt
+2025-01-16 15:55:24,658 - agents.planner - INFO - Task prompt created successfully
+2025-01-16 15:55:24,658 - crew.blog_crew - ERROR - Error in blog creation process: 'str' object has no attribute 'get'
+2025-01-16 15:55:24,663 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-16 15:55:24,664 - crew.blog_crew - INFO - Found 0 blog files
+2025-01-16 16:03:56,487 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-16 16:03:56,487 - crew.blog_crew - INFO - Found 0 blog files
+2025-01-16 16:03:57,383 - crew.blog_crew - INFO - Initializing BlogCrew with topic: AI-chosen topic
+2025-01-16 16:03:57,383 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-16 16:03:57,384 - agents.planner - INFO - Creating PlannerAgent
+2025-01-16 16:03:57,384 - tools.web_tools - INFO - Initializing web search tool
+2025-01-16 16:03:57,390 - tools.web_tools - DEBUG - Google Search API initialized successfully
+2025-01-16 16:03:57,393 - agents.planner - INFO - PlannerAgent created successfully
+2025-01-16 16:03:57,393 - agents.researcher - INFO - Creating ResearcherAgent
+2025-01-16 16:03:57,394 - tools.web_tools - INFO - Initializing web search tool
+2025-01-16 16:03:57,398 - tools.web_tools - DEBUG - Google Search API initialized successfully
+2025-01-16 16:03:57,401 - agents.researcher - INFO - ResearcherAgent created successfully with 2 tools
+2025-01-16 16:03:57,401 - agents.writer - INFO - Creating WriterAgent
+2025-01-16 16:03:57,402 - agents.writer - INFO - WriterAgent created successfully
+2025-01-16 16:03:57,402 - agents.editor - INFO - Creating EditorAgent
+2025-01-16 16:03:57,403 - agents.editor - INFO - EditorAgent created successfully
+2025-01-16 16:03:57,403 - crew.blog_crew - INFO - All agents created successfully
+2025-01-16 16:03:57,403 - crew.blog_crew - INFO - Starting blog creation process
+2025-01-16 16:03:57,403 - crew.blog_crew - INFO - Creating blog generation tasks
+2025-01-16 16:03:57,403 - crew.blog_crew - DEBUG - Creating planning task
+2025-01-16 16:03:57,403 - agents.planner - INFO - Creating task prompt with topic: AI-chosen topic
+2025-01-16 16:03:57,403 - agents.planner - DEBUG - Created AI-chosen topic prompt
+2025-01-16 16:03:57,403 - agents.planner - INFO - Task prompt created successfully
+2025-01-16 16:03:57,404 - crew.blog_crew - ERROR - Error in blog creation process: 1 validation error for Task
+context
+  Input should be a valid list [type=list_type, input_value='Create a detailed blog outline about MongoDB.', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/list_type
+2025-01-16 16:03:57,407 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-16 16:03:57,408 - crew.blog_crew - INFO - Found 0 blog files
+2025-01-16 16:09:34,677 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-16 16:09:34,677 - crew.blog_crew - INFO - Found 0 blog files
+2025-01-16 16:09:36,046 - crew.blog_crew - INFO - Initializing BlogCrew with topic: AI-chosen topic
+2025-01-16 16:09:36,046 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-16 16:09:36,047 - agents.planner - INFO - Creating PlannerAgent
+2025-01-16 16:09:36,047 - tools.web_tools - INFO - Initializing web search tool
+2025-01-16 16:09:36,053 - tools.web_tools - DEBUG - Google Search API initialized successfully
+2025-01-16 16:09:36,056 - agents.planner - INFO - PlannerAgent created successfully
+2025-01-16 16:09:36,057 - agents.researcher - INFO - Creating ResearcherAgent
+2025-01-16 16:09:36,058 - tools.web_tools - INFO - Initializing web search tool
+2025-01-16 16:09:36,061 - tools.web_tools - DEBUG - Google Search API initialized successfully
+2025-01-16 16:09:36,063 - agents.researcher - INFO - ResearcherAgent created successfully with 2 tools
+2025-01-16 16:09:36,063 - agents.writer - INFO - Creating WriterAgent
+2025-01-16 16:09:36,064 - agents.writer - INFO - WriterAgent created successfully
+2025-01-16 16:09:36,064 - agents.editor - INFO - Creating EditorAgent
+2025-01-16 16:09:36,065 - agents.editor - INFO - EditorAgent created successfully
+2025-01-16 16:09:36,066 - crew.blog_crew - INFO - All agents created successfully
+2025-01-16 16:09:36,066 - crew.blog_crew - INFO - Starting blog creation process
+2025-01-16 16:09:36,066 - crew.blog_crew - INFO - Creating blog generation tasks
+2025-01-16 16:09:36,066 - crew.blog_crew - DEBUG - Creating planning task
+2025-01-16 16:09:36,066 - agents.planner - INFO - Creating task prompt with topic: AI-chosen topic
+2025-01-16 16:09:36,066 - agents.planner - DEBUG - Created AI-chosen topic prompt
+2025-01-16 16:09:36,067 - agents.planner - INFO - Task prompt created successfully
+2025-01-16 16:09:36,068 - crew.blog_crew - INFO - Planning task created successfully
+2025-01-16 16:09:36,068 - crew.blog_crew - ERROR - Error in blog creation process: 'NoneType' object is not subscriptable
+2025-01-16 16:09:36,069 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-16 16:09:36,070 - crew.blog_crew - INFO - Found 0 blog files
+2025-01-16 16:10:38,090 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-16 16:10:38,090 - crew.blog_crew - INFO - Found 0 blog files
+2025-01-16 16:10:38,949 - crew.blog_crew - INFO - Initializing BlogCrew with topic: AI-chosen topic
+2025-01-16 16:10:38,949 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-16 16:10:38,949 - agents.planner - INFO - Creating PlannerAgent
+2025-01-16 16:10:38,949 - tools.web_tools - INFO - Initializing web search tool
+2025-01-16 16:10:38,954 - tools.web_tools - DEBUG - Google Search API initialized successfully
+2025-01-16 16:10:38,957 - agents.planner - INFO - PlannerAgent created successfully
+2025-01-16 16:10:38,957 - agents.researcher - INFO - Creating ResearcherAgent
+2025-01-16 16:10:38,957 - tools.web_tools - INFO - Initializing web search tool
+2025-01-16 16:10:38,959 - tools.web_tools - DEBUG - Google Search API initialized successfully
+2025-01-16 16:10:38,961 - agents.researcher - INFO - ResearcherAgent created successfully with 2 tools
+2025-01-16 16:10:38,962 - agents.writer - INFO - Creating WriterAgent
+2025-01-16 16:10:38,964 - agents.writer - INFO - WriterAgent created successfully
+2025-01-16 16:10:38,964 - agents.editor - INFO - Creating EditorAgent
+2025-01-16 16:10:38,966 - agents.editor - INFO - EditorAgent created successfully
+2025-01-16 16:10:38,967 - crew.blog_crew - INFO - All agents created successfully
+2025-01-16 16:10:38,967 - crew.blog_crew - INFO - Starting blog creation process
+2025-01-16 16:10:38,967 - crew.blog_crew - INFO - Creating blog generation tasks
+2025-01-16 16:10:38,967 - crew.blog_crew - DEBUG - Creating planning task
+2025-01-16 16:10:38,967 - agents.planner - INFO - Creating task prompt with topic: AI-chosen topic
+2025-01-16 16:10:38,967 - agents.planner - DEBUG - Created AI-chosen topic prompt
+2025-01-16 16:10:38,967 - agents.planner - INFO - Task prompt created successfully
+2025-01-16 16:10:38,968 - crew.blog_crew - INFO - Planning task created successfully
+2025-01-16 16:10:38,968 - crew.blog_crew - DEBUG - Planning task output: used_tools=0 tools_errors=0 delegations=0 i18n=I18N(prompt_file=None) name=None prompt_context=None description='Research and identify a cutting-edge MongoDB topic for a technical blog post.\n            Focus on recent developments, new features, or innovative use cases.\n\n            1. Search for recent MongoDB news, releases, and discussions\n            2. Identify 2-3 potential topics and select the most promising one\n            3. Create a detailed outline following this structure:\n               - Attention-grabbing title\n               - 4-6 main sections\n               - Key points to cover in each section\n               - Suggestions for code examples or diagrams\n               - Target word count for each section\n\n            Format the outline in markdown with clear hierarchical structure.\n            The total blog length should be 1500-2000 words.\n            Include relevant technical terms and concepts to be covered.\n            ' expected_output='Detailed blog outline in markdown format' config=None callback=None agent=Agent(role=Technical Blog Planner, goal=Plan and outline compelling technical blog posts about MongoDB, backstory=You are an experienced technical blog planner with deep knowledge
+            of MongoDB and database technologies. You stay up-to-date with the latest
+            MongoDB developments and know how to structure content for maximum engagement.) context=None async_execution=False output_json=None output_pydantic=None output_file='blog_outline.md' output=None tools=[Tool(name='Search', description="Tool Name: Search\nTool Arguments: {'query': {'description': '', 'type': 'str'}}\nTool Description: \n            Advanced search tool for MongoDB information. Prioritizes official documentation,\n            MongoDB blog posts, and trusted technical sources. Use specific queries for best results.\n            ", args_schema=<class 'crewai.tools.base_tool.SearchInput'>, description_updated=False, cache_function=<function BaseTool.<lambda> at 0x113a21510>, result_as_answer=False, func=<function WebSearchTools.search_web.<locals>.enhanced_search at 0x1474d88b0>)] id=UUID('83c05e42-ca62-4d84-8794-1ea4c45285a9') human_input=False converter_cls=None processed_by_agents=set() guardrail=None max_retries=3 retry_count=0 start_time=None end_time=None
+2025-01-16 16:10:38,968 - crew.blog_crew - DEBUG - Creating research task
+2025-01-16 16:10:38,968 - crew.blog_crew - ERROR - Error in blog creation process: 'NoneType' object is not subscriptable
+2025-01-16 16:10:38,972 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-16 16:10:38,972 - crew.blog_crew - INFO - Found 0 blog files
+2025-01-16 16:12:43,665 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-16 16:12:43,665 - crew.blog_crew - INFO - Found 0 blog files
+2025-01-16 16:12:44,684 - crew.blog_crew - INFO - Initializing BlogCrew with topic: AI-chosen topic
+2025-01-16 16:12:44,684 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-16 16:12:44,684 - agents.planner - INFO - Creating PlannerAgent
+2025-01-16 16:12:44,684 - tools.web_tools - INFO - Initializing web search tool
+2025-01-16 16:12:44,689 - tools.web_tools - DEBUG - Google Search API initialized successfully
+2025-01-16 16:12:44,695 - agents.planner - INFO - PlannerAgent created successfully
+2025-01-16 16:12:44,696 - agents.researcher - INFO - Creating ResearcherAgent
+2025-01-16 16:12:44,696 - tools.web_tools - INFO - Initializing web search tool
+2025-01-16 16:12:44,698 - tools.web_tools - DEBUG - Google Search API initialized successfully
+2025-01-16 16:12:44,701 - agents.researcher - INFO - ResearcherAgent created successfully with 2 tools
+2025-01-16 16:12:44,702 - agents.writer - INFO - Creating WriterAgent
+2025-01-16 16:12:44,702 - agents.writer - INFO - WriterAgent created successfully
+2025-01-16 16:12:44,702 - agents.editor - INFO - Creating EditorAgent
+2025-01-16 16:12:44,703 - agents.editor - INFO - EditorAgent created successfully
+2025-01-16 16:12:44,703 - crew.blog_crew - INFO - All agents created successfully
+2025-01-16 16:12:44,703 - crew.blog_crew - INFO - Starting blog creation process
+2025-01-16 16:12:44,703 - crew.blog_crew - INFO - Creating blog generation tasks
+2025-01-16 16:12:44,703 - crew.blog_crew - DEBUG - Creating planning task
+2025-01-16 16:12:44,703 - agents.planner - INFO - Creating task prompt with topic: AI-chosen topic
+2025-01-16 16:12:44,703 - agents.planner - DEBUG - Created AI-chosen topic prompt
+2025-01-16 16:12:44,703 - agents.planner - INFO - Task prompt created successfully
+2025-01-16 16:12:44,704 - crew.blog_crew - INFO - Planning task created successfully
+2025-01-16 16:12:44,704 - crew.blog_crew - DEBUG - Planning task output: blog_outline.md
+2025-01-16 16:12:44,704 - crew.blog_crew - DEBUG - Creating research task
+2025-01-16 16:12:44,704 - agents.researcher - INFO - Creating research task prompt
+2025-01-16 16:12:44,705 - agents.researcher - DEBUG - Outline length: 15 characters
+2025-01-16 16:12:44,705 - agents.researcher - INFO - Research task prompt created successfully
+2025-01-16 16:12:44,706 - crew.blog_crew - DEBUG - Creating writing task
+2025-01-16 16:12:44,706 - agents.writer - INFO - Creating writing task prompt
+2025-01-16 16:12:44,706 - agents.writer - DEBUG - Outline length: 15 characters
+2025-01-16 16:12:44,706 - agents.writer - DEBUG - Research length: 19 characters
+2025-01-16 16:12:44,706 - agents.writer - INFO - Writing task prompt created successfully
+2025-01-16 16:12:44,707 - crew.blog_crew - DEBUG - Creating editing task
+2025-01-16 16:12:44,707 - crew.blog_crew - DEBUG - Extracting title from content
+2025-01-16 16:12:44,707 - crew.blog_crew - DEBUG - No title found, using default: MongoDB Technical Blog
+2025-01-16 16:12:44,707 - agents.editor - INFO - Creating editing task prompt for title: MongoDB Technical Blog
+2025-01-16 16:12:44,707 - agents.editor - DEBUG - Blog content length: 13 characters
+2025-01-16 16:12:44,707 - agents.editor - INFO - Editing task prompt created successfully
+2025-01-16 16:12:44,707 - crew.blog_crew - INFO - Created 4 tasks successfully
+2025-01-16 16:12:44,708 - crew.blog_crew - ERROR - Error in blog creation process: 1 validation error for Crew
+verbose
+  Input should be a valid boolean, unable to interpret input [type=bool_parsing, input_value=2, input_type=int]
+    For further information visit https://errors.pydantic.dev/2.10/v/bool_parsing
+2025-01-16 16:12:44,712 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-16 16:12:44,713 - crew.blog_crew - INFO - Found 0 blog files
+2025-01-16 16:13:49,911 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-16 16:13:49,911 - crew.blog_crew - INFO - Found 0 blog files
+2025-01-16 16:13:51,174 - crew.blog_crew - INFO - Initializing BlogCrew with topic: AI-chosen topic
+2025-01-16 16:13:51,175 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-16 16:13:51,175 - agents.planner - INFO - Creating PlannerAgent
+2025-01-16 16:13:51,175 - tools.web_tools - INFO - Initializing web search tool
+2025-01-16 16:13:51,183 - tools.web_tools - DEBUG - Google Search API initialized successfully
+2025-01-16 16:13:51,185 - agents.planner - INFO - PlannerAgent created successfully
+2025-01-16 16:13:51,185 - agents.researcher - INFO - Creating ResearcherAgent
+2025-01-16 16:13:51,186 - tools.web_tools - INFO - Initializing web search tool
+2025-01-16 16:13:51,189 - tools.web_tools - DEBUG - Google Search API initialized successfully
+2025-01-16 16:13:51,191 - agents.researcher - INFO - ResearcherAgent created successfully with 2 tools
+2025-01-16 16:13:51,192 - agents.writer - INFO - Creating WriterAgent
+2025-01-16 16:13:51,193 - agents.writer - INFO - WriterAgent created successfully
+2025-01-16 16:13:51,195 - agents.editor - INFO - Creating EditorAgent
+2025-01-16 16:13:51,196 - agents.editor - INFO - EditorAgent created successfully
+2025-01-16 16:13:51,197 - crew.blog_crew - INFO - All agents created successfully
+2025-01-16 16:13:51,197 - crew.blog_crew - INFO - Starting blog creation process
+2025-01-16 16:13:51,197 - crew.blog_crew - INFO - Creating blog generation tasks
+2025-01-16 16:13:51,197 - crew.blog_crew - DEBUG - Creating planning task
+2025-01-16 16:13:51,197 - agents.planner - INFO - Creating task prompt with topic: AI-chosen topic
+2025-01-16 16:13:51,198 - agents.planner - DEBUG - Created AI-chosen topic prompt
+2025-01-16 16:13:51,198 - agents.planner - INFO - Task prompt created successfully
+2025-01-16 16:13:51,199 - crew.blog_crew - INFO - Planning task created successfully
+2025-01-16 16:13:51,199 - crew.blog_crew - DEBUG - Planning task output: blog_outline.md
+2025-01-16 16:13:51,200 - crew.blog_crew - DEBUG - Creating research task
+2025-01-16 16:13:51,200 - agents.researcher - INFO - Creating research task prompt
+2025-01-16 16:13:51,200 - agents.researcher - DEBUG - Outline length: 15 characters
+2025-01-16 16:13:51,200 - agents.researcher - INFO - Research task prompt created successfully
+2025-01-16 16:13:51,201 - crew.blog_crew - DEBUG - Creating writing task
+2025-01-16 16:13:51,201 - agents.writer - INFO - Creating writing task prompt
+2025-01-16 16:13:51,201 - agents.writer - DEBUG - Outline length: 15 characters
+2025-01-16 16:13:51,201 - agents.writer - DEBUG - Research length: 19 characters
+2025-01-16 16:13:51,202 - agents.writer - INFO - Writing task prompt created successfully
+2025-01-16 16:13:51,202 - crew.blog_crew - DEBUG - Creating editing task
+2025-01-16 16:13:51,202 - crew.blog_crew - DEBUG - Extracting title from content
+2025-01-16 16:13:51,202 - crew.blog_crew - DEBUG - No title found, using default: MongoDB Technical Blog
+2025-01-16 16:13:51,203 - agents.editor - INFO - Creating editing task prompt for title: MongoDB Technical Blog
+2025-01-16 16:13:51,204 - agents.editor - DEBUG - Blog content length: 13 characters
+2025-01-16 16:13:51,204 - agents.editor - INFO - Editing task prompt created successfully
+2025-01-16 16:13:51,205 - crew.blog_crew - INFO - Created 4 tasks successfully
+2025-01-16 16:13:51,213 - crew.blog_crew - DEBUG - Crew initialized with 4 agents and tasks
+2025-01-16 16:13:51,214 - crew.blog_crew - INFO - Kicking off crew tasks
+2025-01-16 16:13:54,635 - tools.web_tools - INFO - Performing enhanced search for query: recent MongoDB news, releases, new features, innovative use cases
+2025-01-16 16:13:54,636 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-16 16:13:55,630 - tools.web_tools - DEBUG - Found results from mongodb.com/blog
+2025-01-16 16:13:55,631 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-16 16:13:56,235 - tools.web_tools - DEBUG - Found results from www.mongodb.com/docs
+2025-01-16 16:13:56,235 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-16 16:13:56,836 - tools.web_tools - DEBUG - Found results from www.mongodb.com/developer
+2025-01-16 16:13:56,836 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-16 16:13:57,446 - tools.web_tools - DEBUG - Found results from www.mongodb.com/community
+2025-01-16 16:13:57,447 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-16 16:13:57,761 - tools.web_tools - DEBUG - Found results from github.com/mongodb
+2025-01-16 16:13:57,762 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-16 16:13:58,263 - tools.web_tools - DEBUG - Found results from www.mongodb.com/changelog
+2025-01-16 16:13:58,264 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-16 16:13:58,738 - tools.web_tools - DEBUG - Found results from engineering.mongodb.com
+2025-01-16 16:13:58,739 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-16 16:13:59,226 - tools.web_tools - DEBUG - Found results from medium.com/tag/mongodb
+2025-01-16 16:13:59,227 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-16 16:13:59,549 - tools.web_tools - DEBUG - Found results from dev.to/t/mongodb
+2025-01-16 16:13:59,550 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-16 16:14:00,045 - tools.web_tools - DEBUG - Found results from dzone.com/mongodb
+2025-01-16 16:14:00,045 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-16 16:14:00,298 - tools.web_tools - DEBUG - Found results from infoq.com/mongodb
+2025-01-16 16:14:00,299 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-16 16:14:00,880 - tools.web_tools - DEBUG - Found results from stackoverflow.blog
+2025-01-16 16:14:00,881 - tools.web_tools - DEBUG - Performing general search
+2025-01-16 16:14:01,853 - tools.web_tools - INFO - Search completed successfully
+2025-01-16 16:14:03,958 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB 8.0 features advantages encryption updates
+2025-01-16 16:14:03,959 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-16 16:14:04,533 - tools.web_tools - DEBUG - Found results from mongodb.com/blog
+2025-01-16 16:14:04,534 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-16 16:14:04,998 - tools.web_tools - DEBUG - Found results from www.mongodb.com/docs
+2025-01-16 16:14:04,999 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-16 16:14:05,564 - tools.web_tools - DEBUG - Found results from www.mongodb.com/developer
+2025-01-16 16:14:05,565 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-16 16:14:06,108 - tools.web_tools - DEBUG - Found results from www.mongodb.com/community
+2025-01-16 16:14:06,109 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-16 16:14:06,674 - tools.web_tools - DEBUG - Found results from github.com/mongodb
+2025-01-16 16:14:06,674 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-16 16:14:07,158 - tools.web_tools - DEBUG - Found results from www.mongodb.com/changelog
+2025-01-16 16:14:07,159 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-16 16:14:07,428 - tools.web_tools - DEBUG - Found results from engineering.mongodb.com
+2025-01-16 16:14:07,429 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-16 16:14:07,951 - tools.web_tools - DEBUG - Found results from medium.com/tag/mongodb
+2025-01-16 16:14:07,951 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-16 16:14:08,212 - tools.web_tools - DEBUG - Found results from dev.to/t/mongodb
+2025-01-16 16:14:08,212 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-16 16:14:08,474 - tools.web_tools - DEBUG - Found results from dzone.com/mongodb
+2025-01-16 16:14:08,475 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-16 16:14:08,726 - tools.web_tools - DEBUG - Found results from infoq.com/mongodb
+2025-01-16 16:14:08,727 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-16 16:14:08,999 - tools.web_tools - DEBUG - Found results from stackoverflow.blog
+2025-01-16 16:14:08,999 - tools.web_tools - DEBUG - Performing general search
+2025-01-16 16:14:09,417 - tools.web_tools - INFO - Search completed successfully
+2025-01-16 16:14:31,400 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB 8.0 new features Queryable Encryption documentation
+2025-01-16 16:14:31,401 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-16 16:14:32,272 - tools.web_tools - DEBUG - Found results from mongodb.com/blog
+2025-01-16 16:14:32,272 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-16 16:14:32,813 - tools.web_tools - DEBUG - Found results from www.mongodb.com/docs
+2025-01-16 16:14:32,814 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-16 16:14:33,348 - tools.web_tools - DEBUG - Found results from www.mongodb.com/developer
+2025-01-16 16:14:33,350 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-16 16:14:33,643 - tools.web_tools - DEBUG - Found results from www.mongodb.com/community
+2025-01-16 16:14:33,644 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-16 16:14:33,935 - tools.web_tools - DEBUG - Found results from github.com/mongodb
+2025-01-16 16:14:33,936 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-16 16:14:34,219 - tools.web_tools - DEBUG - Found results from www.mongodb.com/changelog
+2025-01-16 16:14:34,220 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-16 16:14:34,445 - tools.web_tools - DEBUG - Found results from engineering.mongodb.com
+2025-01-16 16:14:34,446 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-16 16:14:34,944 - tools.web_tools - DEBUG - Found results from medium.com/tag/mongodb
+2025-01-16 16:14:34,945 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-16 16:14:35,212 - tools.web_tools - DEBUG - Found results from dev.to/t/mongodb
+2025-01-16 16:14:35,213 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-16 16:14:35,453 - tools.web_tools - DEBUG - Found results from dzone.com/mongodb
+2025-01-16 16:14:35,455 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-16 16:14:35,732 - tools.web_tools - DEBUG - Found results from infoq.com/mongodb
+2025-01-16 16:14:35,733 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-16 16:14:36,362 - tools.web_tools - DEBUG - Found results from stackoverflow.blog
+2025-01-16 16:14:36,363 - tools.web_tools - DEBUG - Performing general search
+2025-01-16 16:14:37,058 - tools.web_tools - INFO - Search completed successfully
+2025-01-16 16:14:38,615 - tools.web_tools - INFO - Scraping content from URL: https://www.mongodb.com/docs/manual/release-notes/8.0/#new-features
+2025-01-16 16:14:38,615 - tools.web_tools - DEBUG - Making HTTP request
+2025-01-16 16:14:39,481 - tools.web_tools - DEBUG - Parsing HTML content
+2025-01-16 16:14:39,547 - tools.web_tools - DEBUG - Removing unwanted elements
+2025-01-16 16:14:39,565 - tools.web_tools - DEBUG - Identifying main content area
+2025-01-16 16:14:39,579 - tools.web_tools - DEBUG - Found main content using selector: main
+2025-01-16 16:14:39,580 - tools.web_tools - DEBUG - Extracting and formatting text content
+2025-01-16 16:14:39,580 - tools.web_tools - INFO - Successfully scraped and processed content
+2025-01-16 16:16:06,920 - crew.blog_crew - DEBUG - Callback executed: Saving final blog
+2025-01-16 16:16:06,921 - crew.blog_crew - DEBUG - Extracting title from content
+2025-01-16 16:16:06,921 - crew.blog_crew - ERROR - Error extracting title: 'CrewOutput' object has no attribute 'split'
+2025-01-16 16:16:06,921 - crew.blog_crew - INFO - Extracted blog title: MongoDB Technical Blog
+2025-01-16 16:16:06,921 - agents.editor - INFO - Saving blog post with title: MongoDB Technical Blog
+2025-01-16 16:16:06,921 - agents.editor - DEBUG - Created blogs directory: data/blogs
+2025-01-16 16:16:06,921 - agents.editor - ERROR - Error saving blog post: 'CrewOutput' object has no attribute 'split'
+2025-01-16 16:16:06,921 - crew.blog_crew - ERROR - Error in blog creation process: 'CrewOutput' object has no attribute 'split'
+2025-01-16 16:16:06,924 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-16 16:16:06,925 - crew.blog_crew - INFO - Found 0 blog files
+2025-01-16 16:18:49,276 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-16 16:18:49,277 - crew.blog_crew - INFO - Found 0 blog files
+2025-01-16 16:18:50,563 - crew.blog_crew - INFO - Initializing BlogCrew with topic: AI-chosen topic
+2025-01-16 16:18:50,563 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-16 16:18:50,563 - agents.planner - INFO - Creating PlannerAgent
+2025-01-16 16:18:50,564 - tools.web_tools - INFO - Initializing web search tool
+2025-01-16 16:18:50,573 - tools.web_tools - DEBUG - Google Search API initialized successfully
+2025-01-16 16:18:50,576 - agents.planner - INFO - PlannerAgent created successfully
+2025-01-16 16:18:50,576 - agents.researcher - INFO - Creating ResearcherAgent
+2025-01-16 16:18:50,576 - tools.web_tools - INFO - Initializing web search tool
+2025-01-16 16:18:50,577 - tools.web_tools - DEBUG - Google Search API initialized successfully
+2025-01-16 16:18:50,582 - agents.researcher - INFO - ResearcherAgent created successfully with 2 tools
+2025-01-16 16:18:50,583 - agents.writer - INFO - Creating WriterAgent
+2025-01-16 16:18:50,584 - agents.writer - INFO - WriterAgent created successfully
+2025-01-16 16:18:50,585 - agents.editor - INFO - Creating EditorAgent
+2025-01-16 16:18:50,585 - agents.editor - INFO - EditorAgent created successfully
+2025-01-16 16:18:50,585 - crew.blog_crew - INFO - All agents created successfully
+2025-01-16 16:18:50,590 - crew.blog_crew - INFO - Creating blog generation tasks
+2025-01-16 16:18:50,590 - crew.blog_crew - DEBUG - Creating planning task
+2025-01-16 16:18:50,590 - agents.planner - INFO - Creating task prompt with topic: AI-chosen topic
+2025-01-16 16:18:50,590 - agents.planner - DEBUG - Created AI-chosen topic prompt
+2025-01-16 16:18:50,590 - agents.planner - INFO - Task prompt created successfully
+2025-01-16 16:18:50,591 - crew.blog_crew - INFO - Planning task created successfully
+2025-01-16 16:18:50,591 - crew.blog_crew - DEBUG - Planning task output: blog_outline.md
+2025-01-16 16:18:50,591 - crew.blog_crew - DEBUG - Creating research task
+2025-01-16 16:18:50,591 - agents.researcher - INFO - Creating research task prompt
+2025-01-16 16:18:50,591 - agents.researcher - DEBUG - Outline length: 15 characters
+2025-01-16 16:18:50,591 - agents.researcher - INFO - Research task prompt created successfully
+2025-01-16 16:18:50,592 - crew.blog_crew - DEBUG - Creating writing task
+2025-01-16 16:18:50,592 - agents.writer - INFO - Creating writing task prompt
+2025-01-16 16:18:50,592 - agents.writer - DEBUG - Outline length: 15 characters
+2025-01-16 16:18:50,592 - agents.writer - DEBUG - Research length: 19 characters
+2025-01-16 16:18:50,592 - agents.writer - INFO - Writing task prompt created successfully
+2025-01-16 16:18:50,592 - crew.blog_crew - DEBUG - Creating editing task
+2025-01-16 16:18:50,593 - crew.blog_crew - DEBUG - Extracting title from content
+2025-01-16 16:18:50,593 - crew.blog_crew - DEBUG - No title found, using default: MongoDB Technical Blog
+2025-01-16 16:18:50,593 - agents.editor - INFO - Creating editing task prompt for title: MongoDB Technical Blog
+2025-01-16 16:18:50,593 - agents.editor - DEBUG - Blog content length: 13 characters
+2025-01-16 16:18:50,593 - agents.editor - INFO - Editing task prompt created successfully
+2025-01-16 16:18:50,593 - crew.blog_crew - INFO - Created 4 tasks successfully
+2025-01-16 16:18:50,601 - crew.blog_crew - INFO - Kicking off crew tasks
+2025-01-16 16:18:53,166 - tools.web_tools - INFO - Performing enhanced search for query: recent MongoDB features and developments
+2025-01-16 16:18:53,168 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-16 16:18:53,751 - tools.web_tools - DEBUG - Found results from mongodb.com/blog
+2025-01-16 16:18:53,752 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-16 16:18:54,104 - tools.web_tools - DEBUG - Found results from www.mongodb.com/docs
+2025-01-16 16:18:54,105 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-16 16:18:54,731 - tools.web_tools - DEBUG - Found results from www.mongodb.com/developer
+2025-01-16 16:18:54,732 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-16 16:18:55,074 - tools.web_tools - DEBUG - Found results from www.mongodb.com/community
+2025-01-16 16:18:55,075 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-16 16:18:55,541 - tools.web_tools - DEBUG - Found results from github.com/mongodb
+2025-01-16 16:18:55,541 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-16 16:18:55,783 - tools.web_tools - DEBUG - Found results from www.mongodb.com/changelog
+2025-01-16 16:18:55,784 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-16 16:18:56,017 - tools.web_tools - DEBUG - Found results from engineering.mongodb.com
+2025-01-16 16:18:56,017 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-16 16:18:56,310 - tools.web_tools - DEBUG - Found results from medium.com/tag/mongodb
+2025-01-16 16:18:56,310 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-16 16:18:56,563 - tools.web_tools - DEBUG - Found results from dev.to/t/mongodb
+2025-01-16 16:18:56,564 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-16 16:18:56,826 - tools.web_tools - DEBUG - Found results from dzone.com/mongodb
+2025-01-16 16:18:56,827 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-16 16:18:57,382 - tools.web_tools - DEBUG - Found results from infoq.com/mongodb
+2025-01-16 16:18:57,383 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-16 16:18:57,670 - tools.web_tools - DEBUG - Found results from stackoverflow.blog
+2025-01-16 16:18:57,670 - tools.web_tools - DEBUG - Performing general search
+2025-01-16 16:18:58,403 - tools.web_tools - INFO - Search completed successfully
+2025-01-16 16:19:10,468 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB Atlas Vector Search introduction features version 8.0
+2025-01-16 16:19:10,468 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-16 16:19:11,135 - tools.web_tools - DEBUG - Found results from mongodb.com/blog
+2025-01-16 16:19:11,136 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-16 16:19:11,512 - tools.web_tools - DEBUG - Found results from www.mongodb.com/docs
+2025-01-16 16:19:11,513 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-16 16:19:11,848 - tools.web_tools - DEBUG - Found results from www.mongodb.com/developer
+2025-01-16 16:19:11,849 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-16 16:19:12,191 - tools.web_tools - DEBUG - Found results from www.mongodb.com/community
+2025-01-16 16:19:12,192 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-16 16:19:12,719 - tools.web_tools - DEBUG - Found results from github.com/mongodb
+2025-01-16 16:19:12,720 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-16 16:19:12,953 - tools.web_tools - DEBUG - Found results from www.mongodb.com/changelog
+2025-01-16 16:19:12,954 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-16 16:19:13,459 - tools.web_tools - DEBUG - Found results from engineering.mongodb.com
+2025-01-16 16:19:13,459 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-16 16:19:13,956 - tools.web_tools - DEBUG - Found results from medium.com/tag/mongodb
+2025-01-16 16:19:13,957 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-16 16:19:14,463 - tools.web_tools - DEBUG - Found results from dev.to/t/mongodb
+2025-01-16 16:19:14,464 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-16 16:19:14,705 - tools.web_tools - DEBUG - Found results from dzone.com/mongodb
+2025-01-16 16:19:14,706 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-16 16:19:14,993 - tools.web_tools - DEBUG - Found results from infoq.com/mongodb
+2025-01-16 16:19:14,993 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-16 16:19:15,484 - tools.web_tools - DEBUG - Found results from stackoverflow.blog
+2025-01-16 16:19:15,484 - tools.web_tools - DEBUG - Performing general search
+2025-01-16 16:19:16,241 - tools.web_tools - INFO - Search completed successfully
+2025-01-16 16:19:17,297 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB Atlas Vector Search features version 8.0 documentation
+2025-01-16 16:19:17,298 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-16 16:19:17,635 - tools.web_tools - DEBUG - Found results from mongodb.com/blog
+2025-01-16 16:19:17,636 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-16 16:19:17,993 - tools.web_tools - DEBUG - Found results from www.mongodb.com/docs
+2025-01-16 16:19:17,994 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-16 16:19:18,372 - tools.web_tools - DEBUG - Found results from www.mongodb.com/developer
+2025-01-16 16:19:18,373 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-16 16:19:18,861 - tools.web_tools - DEBUG - Found results from www.mongodb.com/community
+2025-01-16 16:19:18,861 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-16 16:19:19,173 - tools.web_tools - DEBUG - Found results from github.com/mongodb
+2025-01-16 16:19:19,174 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-16 16:19:19,408 - tools.web_tools - DEBUG - Found results from www.mongodb.com/changelog
+2025-01-16 16:19:19,409 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-16 16:19:19,908 - tools.web_tools - DEBUG - Found results from engineering.mongodb.com
+2025-01-16 16:19:19,908 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-16 16:19:20,183 - tools.web_tools - DEBUG - Found results from medium.com/tag/mongodb
+2025-01-16 16:19:20,184 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-16 16:19:20,424 - tools.web_tools - DEBUG - Found results from dev.to/t/mongodb
+2025-01-16 16:19:20,425 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-16 16:19:20,948 - tools.web_tools - DEBUG - Found results from dzone.com/mongodb
+2025-01-16 16:19:20,948 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-16 16:19:21,243 - tools.web_tools - DEBUG - Found results from infoq.com/mongodb
+2025-01-16 16:19:21,244 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-16 16:19:21,529 - tools.web_tools - DEBUG - Found results from stackoverflow.blog
+2025-01-16 16:19:21,530 - tools.web_tools - DEBUG - Performing general search
+2025-01-16 16:19:21,996 - tools.web_tools - INFO - Search completed successfully
+2025-01-16 16:19:23,053 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB Atlas Vector Search Code Examples and Best Practices
+2025-01-16 16:19:23,053 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-16 16:19:23,395 - tools.web_tools - DEBUG - Found results from mongodb.com/blog
+2025-01-16 16:19:23,396 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-16 16:19:23,798 - tools.web_tools - DEBUG - Found results from www.mongodb.com/docs
+2025-01-16 16:19:23,799 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-16 16:19:24,113 - tools.web_tools - DEBUG - Found results from www.mongodb.com/developer
+2025-01-16 16:19:24,114 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-16 16:19:24,520 - tools.web_tools - DEBUG - Found results from www.mongodb.com/community
+2025-01-16 16:19:24,521 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-16 16:19:24,920 - tools.web_tools - DEBUG - Found results from github.com/mongodb
+2025-01-16 16:19:24,920 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-16 16:19:25,151 - tools.web_tools - DEBUG - Found results from www.mongodb.com/changelog
+2025-01-16 16:19:25,152 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-16 16:19:25,398 - tools.web_tools - DEBUG - Found results from engineering.mongodb.com
+2025-01-16 16:19:25,399 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-16 16:19:25,666 - tools.web_tools - DEBUG - Found results from medium.com/tag/mongodb
+2025-01-16 16:19:25,667 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-16 16:19:26,191 - tools.web_tools - DEBUG - Found results from dev.to/t/mongodb
+2025-01-16 16:19:26,192 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-16 16:19:26,427 - tools.web_tools - DEBUG - Found results from dzone.com/mongodb
+2025-01-16 16:19:26,428 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-16 16:19:26,712 - tools.web_tools - DEBUG - Found results from infoq.com/mongodb
+2025-01-16 16:19:26,713 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-16 16:19:26,974 - tools.web_tools - DEBUG - Found results from stackoverflow.blog
+2025-01-16 16:19:26,975 - tools.web_tools - DEBUG - Performing general search
+2025-01-16 16:19:27,671 - tools.web_tools - INFO - Search completed successfully
+2025-01-16 16:21:40,784 - crew.blog_crew - DEBUG - Callback executed: Saving final blog
+2025-01-16 16:21:40,784 - crew.blog_crew - DEBUG - Extracting title from content
+2025-01-16 16:21:40,785 - crew.blog_crew - DEBUG - Found title with '# ': Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications
+2025-01-16 16:21:40,785 - crew.blog_crew - INFO - Extracted blog title: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications
+2025-01-16 16:21:40,785 - agents.editor - INFO - Saving blog post with title: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications
+2025-01-16 16:21:40,785 - agents.editor - DEBUG - Created blogs directory: data/blogs
+2025-01-16 16:21:40,785 - agents.editor - DEBUG - Created metadata: {'title': 'Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications', 'date': '2025-01-16', 'tags': ['mongodb', 'databases', 'technical'], 'description': '```markdown ---'}
+2025-01-16 16:21:40,785 - agents.editor - DEBUG - Generated filepath: data/blogs/harnessing-the-power-of-mongodb-atlas-vector-search-for-modern-applications.md
+2025-01-16 16:21:40,786 - agents.editor - INFO - Blog post saved successfully at: data/blogs/harnessing-the-power-of-mongodb-atlas-vector-search-for-modern-applications.md
+2025-01-16 16:21:40,786 - crew.blog_crew - INFO - Blog saved successfully at: data/blogs/harnessing-the-power-of-mongodb-atlas-vector-search-for-modern-applications.md
+2025-01-16 16:21:40,789 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-16 16:21:40,789 - crew.blog_crew - INFO - Found 1 blog files
+2025-01-16 16:21:59,071 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-16 16:21:59,072 - crew.blog_crew - INFO - Found 1 blog files
