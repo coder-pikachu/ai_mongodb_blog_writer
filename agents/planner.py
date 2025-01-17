@@ -20,7 +20,7 @@ class PlannerAgent:
             memory=True,
             max_iter=3,
             llm_config={
-                "temperature": 0.7,
+                "temperature": 0.2,
                 "request_timeout": 120
             }
         )
@@ -30,7 +30,7 @@ class PlannerAgent:
     @staticmethod
     def create_task_prompt(topic=None):
         logger.info("Creating task prompt with topic: %s", topic if topic else "AI-chosen topic")
-        
+
         if topic:
             prompt = f"""Analyze and create a detailed blog post outline about {topic} in MongoDB.
             If the topic is not specific enough, focus on the most recent and relevant aspect of it.
@@ -58,13 +58,12 @@ class PlannerAgent:
                - 4-6 main sections
                - Key points to cover in each section
                - Suggestions for code examples or diagrams
-               - Target word count for each section
+               - Target word count for each section with overall length of 2000-3500 words
 
             Format the outline in markdown with clear hierarchical structure.
-            The total blog length should be 1500-2000 words.
             Include relevant technical terms and concepts to be covered.
             """
             logger.debug("Created AI-chosen topic prompt")
-        
+
         logger.info("Task prompt created successfully")
         return prompt

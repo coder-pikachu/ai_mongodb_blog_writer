@@ -1,2 +1,16 @@
 
 .env
+blog_draft.md
+blog_generator.log
+blog_outline.md
+final_blog.md
+medium_blog.md
+research_content.md
+agents/__pycache__/editor.cpython-310.pyc
+agents/__pycache__/planner.cpython-310.pyc
+agents/__pycache__/researcher.cpython-310.pyc
+agents/__pycache__/writer.cpython-310.pyc
+data/blogs/exploring-mongodb-8.0:-game-changing-features-and-innovations.md
+data/blogs/exploring-the-latest-innovations-in-mongodb:-a-deep-dive-into-version-x.x-features.md
+logs/blog_generator_2025-01-16.log
+logs/blog_generator_2025-01-17.log

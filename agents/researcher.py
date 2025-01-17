@@ -12,9 +12,11 @@ class ResearcherAgent:
             role='Technical Content Researcher',
             goal='Research and gather comprehensive information about MongoDB topics',
             backstory="""You are a meticulous technical researcher with expertise in
-            database technologies. You excel at finding, validating, and synthesizing
+            database technologies who uses search and web scraping tools. You excel at finding, validating, and synthesizing
             technical information from multiple sources. You understand MongoDB deeply
-            and can evaluate the credibility of technical content.""",
+            and can evaluate the credibility of technical content.
+            Be smart on using the tools and don't overuse the tools keeping maximum 3-4 requests in a minute.
+            """,
             tools=[
                 WebSearchTools.search_web(),
                 WebSearchTools.scrape_web()
@@ -24,7 +26,7 @@ class ResearcherAgent:
             memory=True,
             max_iter=3,
             llm_config={
-                "temperature": 0.5,
+                "temperature": 0,
                 "request_timeout": 120
             }
         )
@@ -35,7 +37,7 @@ class ResearcherAgent:
     def create_task_prompt(outline):
         logger.info("Creating research task prompt")
         logger.debug("Outline length: %d characters", len(outline))
-        
+
         prompt = f"""Research and gather detailed information based on the following blog outline:
 
         {outline}
@@ -48,13 +50,13 @@ class ResearcherAgent:
         5. Find recent updates or changes related to each topic
 
         Compile your research in a structured markdown format with:
-        - Source citations for each piece of information
+        - Source citations for each piece of information making sure those links are active
         - Direct quotes where appropriate
         - Technical specifications and version details
-        - Links to official documentation or reliable sources
+        - Active and working links to official documentation or reliable sources
 
         Focus on accuracy and technical depth while ensuring the information is
         recent and relevant."""
-        
+
         logger.info("Research task prompt created successfully")
         return prompt

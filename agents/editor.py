@@ -34,7 +34,7 @@ class EditorAgent:
     def create_task_prompt(blog_content, title):
         logger.info("Creating editing task prompt for title: %s", title)
         logger.debug("Blog content length: %d characters", len(blog_content))
-        
+
         prompt = f"""Review and edit the following technical blog post:
 
         {blog_content}
@@ -45,18 +45,12 @@ class EditorAgent:
         3. Verify markdown formatting is correct
         4. Confirm appropriate use of emojis and formatting
         5. Check code examples for correctness
-        6. Ensure consistent tone and style
+        6. Ensure consistent tone and style that is fun and engaging for readers
         7. Verify section flow and logical progression
-        8. Check word count (target: 1500-2000 words)
-        9. Add metadata including:
-           - Title: {title}
-           - Date: {datetime.now().strftime('%Y-%m-%d')}
-           - Tags: [appropriately selected based on content]
-           - Description: [brief summary]
+        8. Check word count (target: 2500-3000 words)
 
-        Save the final version with proper frontmatter in markdown format.
         Return the edited content with a summary of major changes made."""
-        
+
         logger.info("Editing task prompt created successfully")
         return prompt
 
@@ -64,7 +58,7 @@ class EditorAgent:
     def save_blog(content, title):
         """Save the blog post with proper frontmatter"""
         logger.info("Saving blog post with title: %s", title)
-        
+
         try:
             # Create blogs directory if it doesn't exist
             blogs_dir = os.path.join('data', 'blogs')
@@ -92,10 +86,10 @@ class EditorAgent:
             # Save the file
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(frontmatter.dumps(post))
-            
+
             logger.info("Blog post saved successfully at: %s", filepath)
             return filepath
-            
+
         except Exception as e:
             logger.error("Error saving blog post: %s", str(e))
             raise

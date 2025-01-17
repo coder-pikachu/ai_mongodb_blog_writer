@@ -13,14 +13,14 @@ class WriterAgent:
             backstory="""You are a skilled technical writer who specializes in creating
             clear, engaging content about complex database technologies. You have a
             knack for making technical concepts accessible while maintaining accuracy.
-            You write in a professional yet conversational tone and know how to
+            You write in a professional yet fun and conversational tone and know how to
             incorporate technical details effectively.""",
             verbose=True,
             allow_delegation=False,
             memory=True,
             max_iter=3,
             llm_config={
-                "temperature": 0.8,
+                "temperature": 0,
                 "request_timeout": 180
             }
         )
@@ -32,7 +32,7 @@ class WriterAgent:
         logger.info("Creating writing task prompt")
         logger.debug("Outline length: %d characters", len(outline))
         logger.debug("Research length: %d characters", len(research))
-        
+
         prompt = f"""Write a comprehensive technical blog post based on the following outline
         and research:
 
@@ -57,6 +57,6 @@ class WriterAgent:
         The final blog should be technically accurate while being accessible to
         developers with basic MongoDB knowledge. Make complex concepts clear through
         analogies and examples where appropriate."""
-        
+
         logger.info("Writing task prompt created successfully")
         return prompt
