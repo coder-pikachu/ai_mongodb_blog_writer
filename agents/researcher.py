@@ -24,10 +24,10 @@ class ResearcherAgent:
             verbose=True,
             allow_delegation=False,
             memory=True,
-            max_iter=3,
+            max_iter=10,
             llm_config={
-                "temperature": 0,
-                "request_timeout": 120
+                "temperature": 0.3,
+                "request_timeout": 300
             }
         )
         logger.info("ResearcherAgent created successfully with %d tools", len(agent.tools))

@@ -1,0 +1,169 @@
+2025-01-18 13:35:29,248 - tools.web_tools - INFO - Initializing web search tool
+2025-01-18 13:35:29,249 - tools.web_tools - INFO - Performing enhanced search for query: Latest MongoDB 7.0 features
+2025-01-18 13:35:48,967 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:35:48,967 - crew.blog_crew - INFO - Found 4 blog files
+2025-01-18 13:36:35,762 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:36:35,764 - crew.blog_crew - INFO - Found 4 blog files
+2025-01-18 13:36:35,926 - crew.blog_crew - INFO - Initializing BlogCrew with topic: Building Gen AI with MongoDB
+2025-01-18 13:36:35,927 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-18 13:36:35,927 - agents.planner - INFO - Creating PlannerAgent
+2025-01-18 13:36:35,927 - tools.web_tools - INFO - Initializing web search tool
+2025-01-18 13:36:35,935 - agents.planner - INFO - PlannerAgent created successfully
+2025-01-18 13:36:35,935 - agents.researcher - INFO - Creating ResearcherAgent
+2025-01-18 13:36:35,935 - tools.web_tools - INFO - Initializing web search tool
+2025-01-18 13:36:35,937 - agents.researcher - INFO - ResearcherAgent created successfully with 2 tools
+2025-01-18 13:36:35,938 - agents.writer - INFO - Creating WriterAgent
+2025-01-18 13:36:35,938 - agents.writer - INFO - WriterAgent created successfully
+2025-01-18 13:36:35,938 - agents.editor - INFO - Creating EditorAgent
+2025-01-18 13:36:35,938 - agents.editor - INFO - EditorAgent created successfully
+2025-01-18 13:36:35,938 - crew.blog_crew - INFO - All agents created successfully
+2025-01-18 13:36:35,942 - crew.blog_crew - INFO - Creating blog generation tasks
+2025-01-18 13:36:35,942 - crew.blog_crew - DEBUG - Creating planning task
+2025-01-18 13:36:35,942 - agents.planner - INFO - Creating task prompt with topic: Building Gen AI with MongoDB
+2025-01-18 13:36:35,942 - agents.planner - DEBUG - Created topic-specific prompt
+2025-01-18 13:36:35,942 - agents.planner - INFO - Task prompt created successfully
+2025-01-18 13:36:35,943 - crew.blog_crew - INFO - Planning task created successfully
+2025-01-18 13:36:35,943 - crew.blog_crew - DEBUG - Planning task output: blog_outline.md
+2025-01-18 13:36:35,943 - crew.blog_crew - DEBUG - Creating research task
+2025-01-18 13:36:35,943 - agents.researcher - INFO - Creating research task prompt
+2025-01-18 13:36:35,943 - agents.researcher - DEBUG - Outline length: 15 characters
+2025-01-18 13:36:35,943 - agents.researcher - INFO - Research task prompt created successfully
+2025-01-18 13:36:35,943 - crew.blog_crew - DEBUG - Creating writing task
+2025-01-18 13:36:35,943 - agents.writer - INFO - Creating writing task prompt
+2025-01-18 13:36:35,943 - agents.writer - DEBUG - Outline length: 15 characters
+2025-01-18 13:36:35,943 - agents.writer - DEBUG - Research length: 19 characters
+2025-01-18 13:36:35,943 - agents.writer - INFO - Writing task prompt created successfully
+2025-01-18 13:36:35,944 - crew.blog_crew - DEBUG - Creating editing task
+2025-01-18 13:36:35,944 - crew.blog_crew - DEBUG - Extracting title from content
+2025-01-18 13:36:35,944 - crew.blog_crew - DEBUG - No title found, using default: MongoDB Technical Blog
+2025-01-18 13:36:35,944 - agents.editor - INFO - Creating editing task prompt for title: MongoDB Technical Blog
+2025-01-18 13:36:35,944 - agents.editor - DEBUG - Blog content length: 13 characters
+2025-01-18 13:36:35,944 - agents.editor - INFO - Editing task prompt created successfully
+2025-01-18 13:36:35,944 - crew.blog_crew - INFO - Created 4 tasks successfully
+2025-01-18 13:36:35,949 - crew.blog_crew - INFO - Kicking off crew tasks
+2025-01-18 13:36:38,146 - tools.web_tools - INFO - Performing enhanced search for query: Building Generative AI with MongoDB latest developments updates best practices
+2025-01-18 13:38:13,668 - crew.blog_crew - DEBUG - Callback executed: Saving final blog
+2025-01-18 13:38:13,669 - crew.blog_crew - DEBUG - Extracting title from content
+2025-01-18 13:38:13,669 - crew.blog_crew - DEBUG - Found title with '# ': 🚀 Building Generative AI with MongoDB
+2025-01-18 13:38:13,669 - crew.blog_crew - INFO - Extracted blog title: 🚀 Building Generative AI with MongoDB
+2025-01-18 13:38:13,669 - agents.editor - INFO - Saving blog post with title: 🚀 Building Generative AI with MongoDB
+2025-01-18 13:38:13,669 - agents.editor - DEBUG - Created blogs directory: data/blogs
+2025-01-18 13:38:13,669 - agents.editor - DEBUG - Created metadata: {'title': '🚀 Building Generative AI with MongoDB', 'date': '2025-01-18', 'tags': ['mongodb', 'databases', 'technical'], 'description': '```markdown # 🚀 Building Generative AI with MongoDB'}
+2025-01-18 13:38:13,669 - agents.editor - DEBUG - Generated filepath: data/blogs/🚀-building-generative-ai-with-mongodb.md
+2025-01-18 13:38:13,670 - agents.editor - INFO - Blog post saved successfully at: data/blogs/🚀-building-generative-ai-with-mongodb.md
+2025-01-18 13:38:13,670 - crew.blog_crew - INFO - Blog saved successfully at: data/blogs/🚀-building-generative-ai-with-mongodb.md
+2025-01-18 13:38:13,673 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:38:13,673 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:43:24,607 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:43:24,607 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:43:28,733 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:43:28,734 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:43:33,033 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:43:33,033 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:44:03,664 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:44:03,664 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:44:13,961 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:44:13,961 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:45:20,914 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:45:20,915 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:45:25,295 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:45:25,295 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:45:37,015 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:45:37,016 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:45:40,844 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:45:40,844 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:46:47,065 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:46:47,066 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:47:12,472 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:47:12,474 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:47:12,573 - crew.blog_crew - INFO - Initializing BlogCrew with topic:  Building modern generative ai applications with MongoDB
+2025-01-18 13:47:12,573 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-18 13:47:12,574 - agents.planner - INFO - Creating PlannerAgent
+2025-01-18 13:47:12,574 - tools.web_tools - INFO - Initializing web search tool
+2025-01-18 13:47:12,576 - agents.planner - INFO - PlannerAgent created successfully
+2025-01-18 13:47:12,576 - agents.researcher - INFO - Creating ResearcherAgent
+2025-01-18 13:47:12,576 - tools.web_tools - INFO - Initializing web search tool
+2025-01-18 13:47:12,577 - agents.researcher - INFO - ResearcherAgent created successfully with 2 tools
+2025-01-18 13:47:12,577 - agents.writer - INFO - Creating WriterAgent
+2025-01-18 13:47:12,578 - agents.writer - INFO - WriterAgent created successfully
+2025-01-18 13:47:12,578 - agents.editor - INFO - Creating EditorAgent
+2025-01-18 13:47:12,578 - agents.editor - INFO - EditorAgent created successfully
+2025-01-18 13:47:12,578 - crew.blog_crew - INFO - All agents created successfully
+2025-01-18 13:47:12,581 - crew.blog_crew - INFO - Creating blog generation tasks
+2025-01-18 13:47:12,581 - crew.blog_crew - DEBUG - Creating planning task
+2025-01-18 13:47:12,581 - agents.planner - INFO - Creating task prompt with topic:  Building modern generative ai applications with MongoDB
+2025-01-18 13:47:12,581 - agents.planner - DEBUG - Created topic-specific prompt
+2025-01-18 13:47:12,581 - agents.planner - INFO - Task prompt created successfully
+2025-01-18 13:47:12,581 - crew.blog_crew - INFO - Planning task created successfully
+2025-01-18 13:47:12,581 - crew.blog_crew - DEBUG - Planning task output: blog_outline.md
+2025-01-18 13:47:12,581 - crew.blog_crew - DEBUG - Creating research task
+2025-01-18 13:47:12,582 - agents.researcher - INFO - Creating research task prompt
+2025-01-18 13:47:12,582 - agents.researcher - DEBUG - Outline length: 15 characters
+2025-01-18 13:47:12,582 - agents.researcher - INFO - Research task prompt created successfully
+2025-01-18 13:47:12,582 - crew.blog_crew - DEBUG - Creating writing task
+2025-01-18 13:47:12,582 - agents.writer - INFO - Creating writing task prompt
+2025-01-18 13:47:12,582 - agents.writer - DEBUG - Outline length: 15 characters
+2025-01-18 13:47:12,582 - agents.writer - DEBUG - Research length: 19 characters
+2025-01-18 13:47:12,582 - agents.writer - INFO - Writing task prompt created successfully
+2025-01-18 13:47:12,583 - crew.blog_crew - DEBUG - Creating editing task
+2025-01-18 13:47:12,583 - crew.blog_crew - DEBUG - Extracting title from content
+2025-01-18 13:47:12,583 - crew.blog_crew - DEBUG - No title found, using default: MongoDB Technical Blog
+2025-01-18 13:47:12,583 - agents.editor - INFO - Creating editing task prompt for title: MongoDB Technical Blog
+2025-01-18 13:47:12,583 - agents.editor - DEBUG - Blog content length: 13 characters
+2025-01-18 13:47:12,583 - agents.editor - INFO - Editing task prompt created successfully
+2025-01-18 13:47:12,583 - crew.blog_crew - INFO - Created 4 tasks successfully
+2025-01-18 13:47:12,588 - crew.blog_crew - INFO - Kicking off crew tasks
+2025-01-18 13:47:14,081 - tools.web_tools - INFO - Performing enhanced search for query: Building modern generative AI applications with MongoDB 2023 developments best practices
+2025-01-18 13:47:26,472 - tools.web_tools - INFO - Performing enhanced search for query: generative AI significance modern technology overview MongoDB relevance large datasets
+2025-01-18 13:47:28,934 - tools.web_tools - INFO - Scraping content from URL: https://www.mongodb.com/solutions/use-cases/artificial-intelligence
+2025-01-18 13:47:28,934 - tools.web_tools - DEBUG - Making HTTP request
+2025-01-18 13:47:30,919 - tools.web_tools - DEBUG - Parsing HTML content
+2025-01-18 13:47:30,947 - tools.web_tools - DEBUG - Removing unwanted elements
+2025-01-18 13:47:30,957 - tools.web_tools - DEBUG - Identifying main content area
+2025-01-18 13:47:30,963 - tools.web_tools - DEBUG - No specific content area found, using entire body
+2025-01-18 13:47:30,963 - tools.web_tools - DEBUG - Extracting and formatting text content
+2025-01-18 13:47:30,963 - tools.web_tools - INFO - Successfully scraped and processed content
+2025-01-18 13:47:31,699 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB Atlas setup for AI workloads
+2025-01-18 13:47:35,218 - tools.web_tools - INFO - Scraping content from URL: https://www.mongodb.com/docs/atlas/cluster-config/multi-cloud-distribution/
+2025-01-18 13:47:35,219 - tools.web_tools - DEBUG - Making HTTP request
+2025-01-18 13:47:36,879 - tools.web_tools - DEBUG - Parsing HTML content
+2025-01-18 13:47:36,949 - tools.web_tools - DEBUG - Removing unwanted elements
+2025-01-18 13:47:36,966 - tools.web_tools - DEBUG - Identifying main content area
+2025-01-18 13:47:36,980 - tools.web_tools - DEBUG - Found main content using selector: main
+2025-01-18 13:47:36,980 - tools.web_tools - DEBUG - Extracting and formatting text content
+2025-01-18 13:47:36,981 - tools.web_tools - INFO - Successfully scraped and processed content
+2025-01-18 13:47:38,086 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB data governance best practices for AI applications
+2025-01-18 13:47:40,645 - tools.web_tools - INFO - Scraping content from URL: https://www.mongodb.com/blog/post/data-governance-building-generative-ai-applications-mongodb
+2025-01-18 13:47:40,646 - tools.web_tools - DEBUG - Making HTTP request
+2025-01-18 13:47:41,732 - tools.web_tools - DEBUG - Parsing HTML content
+2025-01-18 13:47:41,750 - tools.web_tools - DEBUG - Removing unwanted elements
+2025-01-18 13:47:41,753 - tools.web_tools - DEBUG - Identifying main content area
+2025-01-18 13:47:41,759 - tools.web_tools - DEBUG - Found main content using selector: main
+2025-01-18 13:47:41,759 - tools.web_tools - DEBUG - Extracting and formatting text content
+2025-01-18 13:47:41,759 - tools.web_tools - INFO - Successfully scraped and processed content
+2025-01-18 13:47:43,884 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB best practices generative AI applications
+2025-01-18 13:47:47,182 - tools.web_tools - INFO - Scraping content from URL: https://www.mongodb.com/resources/solutions/use-cases/embedding-generative-ai
+2025-01-18 13:47:47,183 - tools.web_tools - DEBUG - Making HTTP request
+2025-01-18 13:47:48,513 - tools.web_tools - DEBUG - Parsing HTML content
+2025-01-18 13:47:48,552 - tools.web_tools - DEBUG - Removing unwanted elements
+2025-01-18 13:47:48,563 - tools.web_tools - DEBUG - Identifying main content area
+2025-01-18 13:47:48,566 - tools.web_tools - DEBUG - Found main content using selector: article
+2025-01-18 13:47:48,566 - tools.web_tools - DEBUG - Extracting and formatting text content
+2025-01-18 13:47:48,566 - tools.web_tools - INFO - Successfully scraped and processed content
+2025-01-18 13:47:49,541 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB AI Applications Program features benefits
+2025-01-18 13:49:08,480 - crew.blog_crew - DEBUG - Callback executed: Saving final blog
+2025-01-18 13:49:08,480 - crew.blog_crew - DEBUG - Extracting title from content
+2025-01-18 13:49:08,480 - crew.blog_crew - DEBUG - Found title with '# ': Building Modern Generative AI Applications with MongoDB
+2025-01-18 13:49:08,480 - crew.blog_crew - INFO - Extracted blog title: Building Modern Generative AI Applications with MongoDB
+2025-01-18 13:49:08,480 - agents.editor - INFO - Saving blog post with title: Building Modern Generative AI Applications with MongoDB
+2025-01-18 13:49:08,481 - agents.editor - DEBUG - Created blogs directory: data/blogs
+2025-01-18 13:49:08,481 - agents.editor - DEBUG - Created metadata: {'title': 'Building Modern Generative AI Applications with MongoDB', 'date': '2025-01-18', 'tags': ['mongodb', 'databases', 'technical'], 'description': '```markdown # Building Modern Generative AI Applications with MongoDB'}
+2025-01-18 13:49:08,481 - agents.editor - DEBUG - Generated filepath: data/blogs/building-modern-generative-ai-applications-with-mongodb.md
+2025-01-18 13:49:08,482 - agents.editor - INFO - Blog post saved successfully at: data/blogs/building-modern-generative-ai-applications-with-mongodb.md
+2025-01-18 13:49:08,482 - crew.blog_crew - INFO - Blog saved successfully at: data/blogs/building-modern-generative-ai-applications-with-mongodb.md
+2025-01-18 13:49:08,484 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:49:08,484 - crew.blog_crew - INFO - Found 6 blog files
+2025-01-18 13:49:26,126 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:49:26,127 - crew.blog_crew - INFO - Found 6 blog files
+2025-01-18 13:49:35,294 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:49:35,295 - crew.blog_crew - INFO - Found 6 blog files

@@ -3,8 +3,7 @@
 # API Keys (set these in .env file)
 required_env_vars:
   - OPENAI_API_KEY
-  - GOOGLE_API_KEY
-  - GOOGLE_CSE_ID
+  - SERPAPI_API_KEY
 
 # Blog Settings
 blog_settings:

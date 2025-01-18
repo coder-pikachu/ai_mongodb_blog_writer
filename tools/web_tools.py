@@ -1,13 +1,12 @@
 from langchain.tools import Tool
-from langchain_google_community import GoogleSearchAPIWrapper
-from config.logging_config import setup_logging
-
+import json
 import requests
 from bs4 import BeautifulSoup
 from typing import Optional, List
 import os
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
+from config.logging_config import setup_logging
 
 load_dotenv()
 logger = setup_logging(__name__)
@@ -37,77 +36,86 @@ class WebSearchTools:
     def search_web() -> Tool:
         logger.info("Initializing web search tool")
         try:
-            search = GoogleSearchAPIWrapper(
-                google_api_key=os.getenv("GOOGLE_API_KEY"),
-                google_cse_id=os.getenv("GOOGLE_CSE_ID")
+            def serper_search(query: str) -> dict:
+                """Perform a search using Serper.dev API"""
+                url = "https://google.serper.dev/search"
+                payload = json.dumps({"q": query})
+                headers = {
+                    'X-API-KEY': os.getenv('SERPER_API_KEY'),
+                    'Content-Type': 'application/json'
+                }
+                response = requests.post(url, headers=headers, data=payload)
+                return response.json()
+
+            def enhanced_search(query: str) -> str:
+                """Enhanced search with source prioritization"""
+                logger.info("Performing enhanced search for query: %s", query)
+                try:
+                    # Perform the search
+                    search_results = serper_search(query)
+                    
+                    if not search_results or 'organic' not in search_results:
+                        logger.warning("No results found for query: %s", query)
+                        return "No relevant results found."
+
+                    # Process and prioritize results
+                    prioritized_results = []
+                    other_results = []
+
+                    for result in search_results.get('organic', []):
+                        result_data = {
+                            'title': result.get('title', ''),
+                            'link': result.get('link', ''),
+                            'snippet': result.get('snippet', ''),
+                            'date': result.get('date', '')
+                        }
+
+                        # Check if result is from priority sources
+                        is_priority = any(source in result.get('link', '').lower() 
+                                        for source in WebSearchTools.PRIORITY_SOURCES)
+                        
+                        if is_priority:
+                            prioritized_results.append(result_data)
+                        else:
+                            other_results.append(result_data)
+
+                    # Combine results with priority ones first
+                    all_results = prioritized_results + other_results
+                    
+                    # Format results as a string
+                    formatted_results = []
+                    for idx, result in enumerate(all_results[:5], 1):
+                        formatted_result = (
+                            f"{idx}. {result['title']}\n"
+                            f"   URL: {result['link']}\n"
+                            f"   Summary: {result['snippet']}\n"
+                        )
+                        if result.get('date'):
+                            formatted_result += f"   Date: {result['date']}\n"
+                        formatted_results.append(formatted_result)
+
+                    return "\n".join(formatted_results) if formatted_results else "No relevant results found."
+
+                except Exception as e:
+                    logger.error("Error in enhanced search: %s", str(e))
+                    return f"Error performing search: {str(e)}"
+
+            return Tool(
+                name="Web Search",
+                func=enhanced_search,
+                description="Search the web for MongoDB related information and news"
             )
-            logger.debug("Google Search API initialized successfully")
+
         except Exception as e:
-            logger.error("Failed to initialize Google Search API: %s", str(e))
+            logger.error("Failed to initialize web search tool: %s", str(e))
             raise
-
-        def enhanced_search(query: str) -> str:
-            """Enhanced search with source prioritization"""
-            logger.info("Performing enhanced search for query: %s", query)
-            
-            # Search priority sources first
-            priority_results = []
-            for source in WebSearchTools.PRIORITY_SOURCES:
-                source_query = f"{query} site:{source}"
-                try:
-                    logger.debug("Searching priority source: %s", source)
-                    results = search.run(source_query)
-                    if results:
-                        priority_results.append(results)
-                        logger.debug("Found results from %s", source)
-                except Exception as e:
-                    logger.warning("Failed to search %s: %s", source, str(e))
-                    continue
-
-            # Search tech sources
-            tech_results = []
-            for source in WebSearchTools.TECH_SOURCES:
-                source_query = f"{query} site:{source}"
-                try:
-                    logger.debug("Searching tech source: %s", source)
-                    results = search.run(source_query)
-                    if results:
-                        tech_results.append(results)
-                        logger.debug("Found results from %s", source)
-                except Exception as e:
-                    logger.warning("Failed to search %s: %s", source, str(e))
-                    continue
-
-            # Combine results with priority order
-            combined_results = "\n\nPriority Sources:\n" + "\n".join(priority_results[:3])
-            combined_results += "\n\nTechnical Sources:\n" + "\n".join(tech_results[:2])
-
-            # Add general search results
-            try:
-                logger.debug("Performing general search")
-                general_results = search.run(f"{query} mongodb recent")
-                combined_results += "\n\nAdditional Sources:\n" + general_results
-            except Exception as e:
-                logger.warning("Failed to perform general search: %s", str(e))
-
-            logger.info("Search completed successfully")
-            return combined_results
-
-        return Tool(
-            name="Search",
-            func=enhanced_search,
-            description="""
-            Advanced search tool for MongoDB information. Prioritizes official documentation,
-            MongoDB blog posts, and trusted technical sources. Use specific queries for best results.
-            """
-        )
 
     @staticmethod
     def scrape_web() -> Tool:
         def scrape_site(url: str) -> Optional[str]:
             """Scrape text content from a webpage with enhanced cleaning"""
             logger.info("Scraping content from URL: %s", url)
-            
+
             try:
                 headers = {
                     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
@@ -183,13 +191,12 @@ class WebSearchTools:
     def get_latest_mongodb_news() -> List[str]:
         """Gather latest MongoDB news from priority sources"""
         logger.info("Gathering latest MongoDB news")
-        
+
         try:
-            search = GoogleSearchAPIWrapper(
-                google_api_key=os.getenv("GOOGLE_API_KEY"),
-                google_cse_id=os.getenv("GOOGLE_CSE_ID")
+            search = SerpAPIWrapper(
+
             )
-            logger.debug("Google Search API initialized for news gathering")
+            logger.debug("Serper API initialized for news gathering")
 
             # Calculate date for recent content
             one_month_ago = (datetime.now() - timedelta(days=30)).strftime('%Y-%m-%d')
@@ -203,16 +210,24 @@ class WebSearchTools:
                     query = f"after:{one_month_ago} site:{source}"
                     logger.debug("Searching news from source: %s", source)
                     results = search.run(query)
-                    if results:
-                        news_items.append(results)
-                        logger.debug("Found news from %s", source)
+                    if isinstance(results, dict) and 'organic' in results:
+                        organic_results = results['organic']
+                        formatted_results = "\n".join([
+                            f"Title: {result.get('title', '')}\n"
+                            f"Link: {result.get('link', '')}\n"
+                            f"Snippet: {result.get('snippet', '')}\n"
+                            for result in organic_results[:2]
+                        ])
+                        if formatted_results:
+                            news_items.append(formatted_results)
+                            logger.debug("Found news from %s", source)
                 except Exception as e:
                     logger.warning("Failed to get news from %s: %s", source, str(e))
                     continue
 
             logger.info("Found %d news items", len(news_items))
             return news_items[:5]  # Return top 5 recent news items
-            
+
         except Exception as e:
             logger.error("Error gathering MongoDB news: %s", str(e))
             return []

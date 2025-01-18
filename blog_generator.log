@@ -914,3 +914,1078 @@ LiteLLM completion() model= gpt-4o-mini; provider = openai
 2025-01-16 16:21:59,073 - __main__ - INFO - Found 1 existing blogs
 2025-01-16 16:21:59,076 - __main__ - INFO - Displaying blog: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications (2025-01-16)
 2025-01-16 16:21:59,079 - __main__ - INFO - Displaying blog preview with metadata: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications
+2025-01-17 23:48:41,144 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-17 23:48:41,145 - __main__ - INFO - Entering create_blog function
+2025-01-17 23:48:41,146 - __main__ - INFO - Entering view_blogs function
+2025-01-17 23:48:41,147 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-17 23:48:41,147 - crew.blog_crew - INFO - Found 3 blog files
+2025-01-17 23:48:41,147 - __main__ - INFO - Found 3 existing blogs
+2025-01-17 23:48:41,148 - __main__ - INFO - Displaying blog: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications (2025-01-16)
+2025-01-17 23:48:41,149 - __main__ - INFO - Displaying blog preview with metadata: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications
+2025-01-17 23:48:43,434 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-17 23:48:43,436 - __main__ - INFO - Entering create_blog function
+2025-01-17 23:48:43,439 - __main__ - INFO - Starting blog generation process with topic: AI-chosen topic
+2025-01-17 23:48:43,442 - __main__ - INFO - 🎯 Initializing blog generation process...
+2025-01-17 23:48:43,443 - crew.blog_crew - INFO - Initializing BlogCrew with topic: AI-chosen topic
+2025-01-17 23:48:43,444 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-17 23:48:43,445 - agents.planner - INFO - Creating PlannerAgent
+2025-01-17 23:48:43,445 - tools.web_tools - INFO - Initializing web search tool
+2025-01-17 23:48:43,446 - tools.web_tools - ERROR - Failed to initialize Serper API: name 'SerperAPIWrapper' is not defined
+2025-01-17 23:48:43,446 - __main__ - ERROR - Error generating blog: name 'SerperAPIWrapper' is not defined
+Traceback (most recent call last):
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/app.py", line 261, in create_blog
+    crew = BlogCrew(topic)
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/crew/blog_crew.py", line 19, in __init__
+    self.planner = PlannerAgent.create()
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/agents/planner.py", line 17, in create
+    tools=[WebSearchTools.search_web()],
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/tools/web_tools.py", line 40, in search_web
+    search = SerperAPIWrapper(
+NameError: name 'SerperAPIWrapper' is not defined. Did you mean: 'SerpAPIWrapper'?
+2025-01-17 23:48:43,451 - __main__ - INFO - Entering view_blogs function
+2025-01-17 23:48:43,453 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-17 23:48:43,455 - crew.blog_crew - INFO - Found 3 blog files
+2025-01-17 23:48:43,456 - __main__ - INFO - Found 3 existing blogs
+2025-01-17 23:48:43,459 - __main__ - INFO - Displaying blog: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications (2025-01-16)
+2025-01-17 23:48:43,460 - __main__ - INFO - Displaying blog preview with metadata: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications
+2025-01-17 23:48:52,104 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-17 23:48:52,106 - __main__ - INFO - Entering create_blog function
+2025-01-17 23:48:52,109 - __main__ - INFO - Starting blog generation process with topic: AI-chosen topic
+2025-01-17 23:48:52,110 - __main__ - INFO - 🎯 Initializing blog generation process...
+2025-01-17 23:48:52,111 - crew.blog_crew - INFO - Initializing BlogCrew with topic: AI-chosen topic
+2025-01-17 23:48:52,111 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-17 23:48:52,111 - agents.planner - INFO - Creating PlannerAgent
+2025-01-17 23:48:52,112 - tools.web_tools - INFO - Initializing web search tool
+2025-01-17 23:48:52,112 - tools.web_tools - ERROR - Failed to initialize Serper API: name 'SerperAPIWrapper' is not defined
+2025-01-17 23:48:52,112 - __main__ - ERROR - Error generating blog: name 'SerperAPIWrapper' is not defined
+Traceback (most recent call last):
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/app.py", line 261, in create_blog
+    crew = BlogCrew(topic)
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/crew/blog_crew.py", line 19, in __init__
+    self.planner = PlannerAgent.create()
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/agents/planner.py", line 17, in create
+    tools=[WebSearchTools.search_web()],
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/tools/web_tools.py", line 40, in search_web
+    search = SerperAPIWrapper(
+NameError: name 'SerperAPIWrapper' is not defined. Did you mean: 'SerpAPIWrapper'?
+2025-01-17 23:48:52,122 - __main__ - INFO - Entering view_blogs function
+2025-01-17 23:48:52,123 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-17 23:48:52,124 - crew.blog_crew - INFO - Found 3 blog files
+2025-01-17 23:48:52,125 - __main__ - INFO - Found 3 existing blogs
+2025-01-17 23:48:52,126 - __main__ - INFO - Displaying blog: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications (2025-01-16)
+2025-01-17 23:48:52,127 - __main__ - INFO - Displaying blog preview with metadata: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications
+2025-01-17 23:49:18,328 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-17 23:49:18,331 - __main__ - INFO - Entering create_blog function
+2025-01-17 23:49:18,334 - __main__ - INFO - Starting blog generation process with topic: AI-chosen topic
+2025-01-17 23:49:18,337 - __main__ - INFO - 🎯 Initializing blog generation process...
+2025-01-17 23:49:18,337 - crew.blog_crew - INFO - Initializing BlogCrew with topic: AI-chosen topic
+2025-01-17 23:49:18,338 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-17 23:49:18,338 - agents.planner - INFO - Creating PlannerAgent
+2025-01-17 23:49:18,339 - tools.web_tools - INFO - Initializing web search tool
+2025-01-17 23:49:18,340 - tools.web_tools - ERROR - Failed to initialize Serper API: name 'SerperAPIWrapper' is not defined
+2025-01-17 23:49:18,340 - __main__ - ERROR - Error generating blog: name 'SerperAPIWrapper' is not defined
+Traceback (most recent call last):
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/app.py", line 261, in create_blog
+    crew = BlogCrew(topic)
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/crew/blog_crew.py", line 19, in __init__
+    self.planner = PlannerAgent.create()
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/agents/planner.py", line 17, in create
+    tools=[WebSearchTools.search_web()],
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/tools/web_tools.py", line 40, in search_web
+    search = SerperAPIWrapper(
+NameError: name 'SerperAPIWrapper' is not defined. Did you mean: 'SerpAPIWrapper'?
+2025-01-17 23:49:18,345 - __main__ - INFO - Entering view_blogs function
+2025-01-17 23:49:18,347 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-17 23:49:18,348 - crew.blog_crew - INFO - Found 3 blog files
+2025-01-17 23:49:18,348 - __main__ - INFO - Found 3 existing blogs
+2025-01-17 23:49:18,351 - __main__ - INFO - Displaying blog: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications (2025-01-16)
+2025-01-17 23:49:18,352 - __main__ - INFO - Displaying blog preview with metadata: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications
+2025-01-17 23:49:41,093 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-17 23:49:41,093 - __main__ - INFO - Entering create_blog function
+2025-01-17 23:49:41,094 - __main__ - INFO - Entering view_blogs function
+2025-01-17 23:49:41,094 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-17 23:49:41,095 - crew.blog_crew - INFO - Found 3 blog files
+2025-01-17 23:49:41,095 - __main__ - INFO - Found 3 existing blogs
+2025-01-17 23:49:41,096 - __main__ - INFO - Displaying blog: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications (2025-01-16)
+2025-01-17 23:49:41,096 - __main__ - INFO - Displaying blog preview with metadata: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications
+2025-01-17 23:49:42,152 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-17 23:49:42,155 - __main__ - INFO - Entering create_blog function
+2025-01-17 23:49:42,157 - __main__ - INFO - Starting blog generation process with topic: AI-chosen topic
+2025-01-17 23:49:42,160 - __main__ - INFO - 🎯 Initializing blog generation process...
+2025-01-17 23:49:42,160 - crew.blog_crew - INFO - Initializing BlogCrew with topic: AI-chosen topic
+2025-01-17 23:49:42,161 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-17 23:49:42,161 - agents.planner - INFO - Creating PlannerAgent
+2025-01-17 23:49:42,161 - tools.web_tools - INFO - Initializing web search tool
+2025-01-17 23:49:42,162 - tools.web_tools - ERROR - Failed to initialize Serper API: 1 validation error for SerpAPIWrapper
+  Value error, Did not find serpapi_api_key, please add an environment variable `SERPAPI_API_KEY` which contains it, or pass `serpapi_api_key` as a named parameter. [type=value_error, input_value={'serper_api_key': '16ffa...ce70037521a2e0210dcdf7'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/value_error
+2025-01-17 23:49:42,162 - __main__ - ERROR - Error generating blog: 1 validation error for SerpAPIWrapper
+  Value error, Did not find serpapi_api_key, please add an environment variable `SERPAPI_API_KEY` which contains it, or pass `serpapi_api_key` as a named parameter. [type=value_error, input_value={'serper_api_key': '16ffa...ce70037521a2e0210dcdf7'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/value_error
+Traceback (most recent call last):
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/app.py", line 261, in create_blog
+    crew = BlogCrew(topic)
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/crew/blog_crew.py", line 19, in __init__
+    self.planner = PlannerAgent.create()
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/agents/planner.py", line 17, in create
+    tools=[WebSearchTools.search_web()],
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/tools/web_tools.py", line 40, in search_web
+    search = SerpAPIWrapper(
+  File "/Users/sangram.mohite/.pyenv/versions/3.10.16/lib/python3.10/site-packages/pydantic/main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for SerpAPIWrapper
+  Value error, Did not find serpapi_api_key, please add an environment variable `SERPAPI_API_KEY` which contains it, or pass `serpapi_api_key` as a named parameter. [type=value_error, input_value={'serper_api_key': '16ffa...ce70037521a2e0210dcdf7'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/value_error
+2025-01-17 23:49:42,167 - __main__ - INFO - Entering view_blogs function
+2025-01-17 23:49:42,167 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-17 23:49:42,168 - crew.blog_crew - INFO - Found 3 blog files
+2025-01-17 23:49:42,168 - __main__ - INFO - Found 3 existing blogs
+2025-01-17 23:49:42,171 - __main__ - INFO - Displaying blog: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications (2025-01-16)
+2025-01-17 23:49:42,172 - __main__ - INFO - Displaying blog preview with metadata: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications
+2025-01-17 23:51:16,734 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-17 23:51:16,735 - __main__ - INFO - Entering create_blog function
+2025-01-17 23:51:16,736 - __main__ - INFO - Entering view_blogs function
+2025-01-17 23:51:16,736 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-17 23:51:16,737 - crew.blog_crew - INFO - Found 3 blog files
+2025-01-17 23:51:16,737 - __main__ - INFO - Found 3 existing blogs
+2025-01-17 23:51:16,738 - __main__ - INFO - Displaying blog: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications (2025-01-16)
+2025-01-17 23:51:16,739 - __main__ - INFO - Displaying blog preview with metadata: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications
+2025-01-17 23:51:19,599 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-17 23:51:19,602 - __main__ - INFO - Entering create_blog function
+2025-01-17 23:51:19,605 - __main__ - INFO - Starting blog generation process with topic: AI-chosen topic
+2025-01-17 23:51:19,607 - __main__ - INFO - 🎯 Initializing blog generation process...
+2025-01-17 23:51:19,607 - crew.blog_crew - INFO - Initializing BlogCrew with topic: AI-chosen topic
+2025-01-17 23:51:19,608 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-17 23:51:19,608 - agents.planner - INFO - Creating PlannerAgent
+2025-01-17 23:51:19,608 - tools.web_tools - INFO - Initializing web search tool
+2025-01-17 23:51:19,609 - tools.web_tools - ERROR - Failed to initialize Serper API: Could not import serpapi python package. Please install it with `pip install google-search-results`.
+2025-01-17 23:51:19,610 - __main__ - ERROR - Error generating blog: Could not import serpapi python package. Please install it with `pip install google-search-results`.
+Traceback (most recent call last):
+  File "/Users/sangram.mohite/.pyenv/versions/3.10.16/lib/python3.10/site-packages/langchain_community/utilities/serpapi.py", line 69, in validate_environment
+    from serpapi import GoogleSearch
+ModuleNotFoundError: No module named 'serpapi'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/app.py", line 261, in create_blog
+    crew = BlogCrew(topic)
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/crew/blog_crew.py", line 19, in __init__
+    self.planner = PlannerAgent.create()
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/agents/planner.py", line 17, in create
+    tools=[WebSearchTools.search_web()],
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/tools/web_tools.py", line 40, in search_web
+    search = SerpAPIWrapper(
+  File "/Users/sangram.mohite/.pyenv/versions/3.10.16/lib/python3.10/site-packages/pydantic/main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+  File "/Users/sangram.mohite/.pyenv/versions/3.10.16/lib/python3.10/site-packages/langchain_community/utilities/serpapi.py", line 73, in validate_environment
+    raise ImportError(
+ImportError: Could not import serpapi python package. Please install it with `pip install google-search-results`.
+2025-01-17 23:51:19,616 - __main__ - INFO - Entering view_blogs function
+2025-01-17 23:51:19,617 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-17 23:51:19,617 - crew.blog_crew - INFO - Found 3 blog files
+2025-01-17 23:51:19,617 - __main__ - INFO - Found 3 existing blogs
+2025-01-17 23:51:19,618 - __main__ - INFO - Displaying blog: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications (2025-01-16)
+2025-01-17 23:51:19,619 - __main__ - INFO - Displaying blog preview with metadata: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications
+2025-01-17 23:52:04,350 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-17 23:52:04,351 - __main__ - INFO - Entering create_blog function
+2025-01-17 23:52:04,352 - __main__ - INFO - Entering view_blogs function
+2025-01-17 23:52:04,352 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-17 23:52:04,352 - crew.blog_crew - INFO - Found 3 blog files
+2025-01-17 23:52:04,352 - __main__ - INFO - Found 3 existing blogs
+2025-01-17 23:52:04,353 - __main__ - INFO - Displaying blog: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications (2025-01-16)
+2025-01-17 23:52:04,354 - __main__ - INFO - Displaying blog preview with metadata: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications
+2025-01-17 23:52:05,593 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-17 23:52:05,594 - __main__ - INFO - Entering create_blog function
+2025-01-17 23:52:05,596 - __main__ - INFO - Starting blog generation process with topic: AI-chosen topic
+2025-01-17 23:52:05,598 - __main__ - INFO - 🎯 Initializing blog generation process...
+2025-01-17 23:52:05,599 - crew.blog_crew - INFO - Initializing BlogCrew with topic: AI-chosen topic
+2025-01-17 23:52:05,599 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-17 23:52:05,599 - agents.planner - INFO - Creating PlannerAgent
+2025-01-17 23:52:05,599 - tools.web_tools - INFO - Initializing web search tool
+2025-01-17 23:52:05,615 - tools.web_tools - ERROR - Failed to initialize Serper API: 1 validation error for SerpAPIWrapper
+serper_api_key
+  Extra inputs are not permitted [type=extra_forbidden, input_value='16ffa0297bbeab18d2ce70037521a2e0210dcdf7', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+2025-01-17 23:52:05,615 - __main__ - ERROR - Error generating blog: 1 validation error for SerpAPIWrapper
+serper_api_key
+  Extra inputs are not permitted [type=extra_forbidden, input_value='16ffa0297bbeab18d2ce70037521a2e0210dcdf7', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+Traceback (most recent call last):
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/app.py", line 261, in create_blog
+    crew = BlogCrew(topic)
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/crew/blog_crew.py", line 19, in __init__
+    self.planner = PlannerAgent.create()
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/agents/planner.py", line 17, in create
+    tools=[WebSearchTools.search_web()],
+  File "/Users/sangram.mohite/Developer/genai/ai_mongodb_blog_writer/tools/web_tools.py", line 40, in search_web
+    search = SerpAPIWrapper(
+  File "/Users/sangram.mohite/.pyenv/versions/3.10.16/lib/python3.10/site-packages/pydantic/main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for SerpAPIWrapper
+serper_api_key
+  Extra inputs are not permitted [type=extra_forbidden, input_value='16ffa0297bbeab18d2ce70037521a2e0210dcdf7', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/extra_forbidden
+2025-01-17 23:52:05,618 - __main__ - INFO - Entering view_blogs function
+2025-01-17 23:52:05,618 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-17 23:52:05,619 - crew.blog_crew - INFO - Found 3 blog files
+2025-01-17 23:52:05,619 - __main__ - INFO - Found 3 existing blogs
+2025-01-17 23:52:05,621 - __main__ - INFO - Displaying blog: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications (2025-01-16)
+2025-01-17 23:52:05,623 - __main__ - INFO - Displaying blog preview with metadata: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications
+2025-01-17 23:53:02,811 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-17 23:53:02,812 - __main__ - INFO - Entering create_blog function
+2025-01-17 23:53:02,813 - __main__ - INFO - Entering view_blogs function
+2025-01-17 23:53:02,813 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-17 23:53:02,814 - crew.blog_crew - INFO - Found 3 blog files
+2025-01-17 23:53:02,814 - __main__ - INFO - Found 3 existing blogs
+2025-01-17 23:53:02,815 - __main__ - INFO - Displaying blog: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications (2025-01-16)
+2025-01-17 23:53:02,815 - __main__ - INFO - Displaying blog preview with metadata: Harnessing the Power of MongoDB Atlas Vector Search for Modern Applications
+2025-01-17 23:53:04,562 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-17 23:53:04,564 - __main__ - INFO - Entering create_blog function
+2025-01-17 23:53:04,566 - __main__ - INFO - Starting blog generation process with topic: AI-chosen topic
+2025-01-17 23:53:04,568 - __main__ - INFO - 🎯 Initializing blog generation process...
+2025-01-17 23:53:04,568 - crew.blog_crew - INFO - Initializing BlogCrew with topic: AI-chosen topic
+2025-01-17 23:53:04,569 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-17 23:53:04,569 - agents.planner - INFO - Creating PlannerAgent
+2025-01-17 23:53:04,569 - tools.web_tools - INFO - Initializing web search tool
+2025-01-17 23:53:04,583 - tools.web_tools - DEBUG - Serper API initialized successfully
+2025-01-17 23:53:04,586 - agents.planner - INFO - PlannerAgent created successfully
+2025-01-17 23:53:04,586 - agents.researcher - INFO - Creating ResearcherAgent
+2025-01-17 23:53:04,586 - tools.web_tools - INFO - Initializing web search tool
+2025-01-17 23:53:04,586 - tools.web_tools - DEBUG - Serper API initialized successfully
+2025-01-17 23:53:04,590 - agents.researcher - INFO - ResearcherAgent created successfully with 2 tools
+2025-01-17 23:53:04,590 - agents.writer - INFO - Creating WriterAgent
+2025-01-17 23:53:04,591 - agents.writer - INFO - WriterAgent created successfully
+2025-01-17 23:53:04,591 - agents.editor - INFO - Creating EditorAgent
+2025-01-17 23:53:04,592 - agents.editor - INFO - EditorAgent created successfully
+2025-01-17 23:53:04,592 - crew.blog_crew - INFO - All agents created successfully
+2025-01-17 23:53:04,593 - __main__ - INFO - 🤔 Analyzing topic and planning blog structure...
+2025-01-17 23:53:04,594 - __main__ - INFO - 📚 Researching MongoDB documentation and best practices...
+2025-01-17 23:53:04,594 - __main__ - INFO - ✍️ Writing blog draft with technical insights...
+2025-01-17 23:53:04,595 - __main__ - INFO - 🔍 Reviewing technical accuracy and code examples...
+2025-01-17 23:53:04,598 - __main__ - INFO - ✨ Polishing content and formatting...
+2025-01-17 23:53:04,603 - __main__ - INFO - Creating blog generation tasks...
+2025-01-17 23:53:04,605 - crew.blog_crew - INFO - Creating blog generation tasks
+2025-01-17 23:53:04,607 - crew.blog_crew - DEBUG - Creating planning task
+2025-01-17 23:53:04,609 - agents.planner - INFO - Creating task prompt with topic: AI-chosen topic
+2025-01-17 23:53:04,610 - agents.planner - DEBUG - Created AI-chosen topic prompt
+2025-01-17 23:53:04,610 - agents.planner - INFO - Task prompt created successfully
+2025-01-17 23:53:04,611 - crew.blog_crew - INFO - Planning task created successfully
+2025-01-17 23:53:04,611 - crew.blog_crew - DEBUG - Planning task output: blog_outline.md
+2025-01-17 23:53:04,611 - crew.blog_crew - DEBUG - Creating research task
+2025-01-17 23:53:04,612 - agents.researcher - INFO - Creating research task prompt
+2025-01-17 23:53:04,612 - agents.researcher - DEBUG - Outline length: 15 characters
+2025-01-17 23:53:04,612 - agents.researcher - INFO - Research task prompt created successfully
+2025-01-17 23:53:04,613 - crew.blog_crew - DEBUG - Creating writing task
+2025-01-17 23:53:04,613 - agents.writer - INFO - Creating writing task prompt
+2025-01-17 23:53:04,613 - agents.writer - DEBUG - Outline length: 15 characters
+2025-01-17 23:53:04,614 - agents.writer - DEBUG - Research length: 19 characters
+2025-01-17 23:53:04,614 - agents.writer - INFO - Writing task prompt created successfully
+2025-01-17 23:53:04,615 - crew.blog_crew - DEBUG - Creating editing task
+2025-01-17 23:53:04,615 - crew.blog_crew - DEBUG - Extracting title from content
+2025-01-17 23:53:04,615 - crew.blog_crew - DEBUG - No title found, using default: MongoDB Technical Blog
+2025-01-17 23:53:04,615 - agents.editor - INFO - Creating editing task prompt for title: MongoDB Technical Blog
+2025-01-17 23:53:04,615 - agents.editor - DEBUG - Blog content length: 13 characters
+2025-01-17 23:53:04,615 - agents.editor - INFO - Editing task prompt created successfully
+2025-01-17 23:53:04,616 - crew.blog_crew - INFO - Created 4 tasks successfully
+2025-01-17 23:53:04,621 - __main__ - INFO - Starting crew tasks execution...
+2025-01-17 23:53:04,621 - crew.blog_crew - INFO - Kicking off crew tasks
+2025-01-17 23:53:04,631 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-17 23:53:07,155 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 23:53:07,177 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-17 23:53:07,184 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-17 23:53:08,364 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 23:53:08,368 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-17 23:53:08,372 - tools.web_tools - INFO - Performing enhanced search for query: recent MongoDB news releases innovative use cases
+2025-01-17 23:53:08,373 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-17 23:53:09,092 - tools.web_tools - WARNING - Failed to search mongodb.com/blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:09,094 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-17 23:53:09,426 - tools.web_tools - WARNING - Failed to search www.mongodb.com/docs: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:09,426 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-17 23:53:09,926 - tools.web_tools - WARNING - Failed to search www.mongodb.com/developer: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:09,927 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-17 23:53:10,236 - tools.web_tools - WARNING - Failed to search www.mongodb.com/community: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:10,237 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-17 23:53:10,534 - tools.web_tools - WARNING - Failed to search github.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:10,535 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-17 23:53:10,844 - tools.web_tools - WARNING - Failed to search www.mongodb.com/changelog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:10,845 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-17 23:53:11,174 - tools.web_tools - WARNING - Failed to search engineering.mongodb.com: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:11,175 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-17 23:53:11,468 - tools.web_tools - WARNING - Failed to search medium.com/tag/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:11,469 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-17 23:53:11,780 - tools.web_tools - WARNING - Failed to search dev.to/t/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:11,781 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-17 23:53:12,266 - tools.web_tools - WARNING - Failed to search dzone.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:12,267 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-17 23:53:12,555 - tools.web_tools - WARNING - Failed to search infoq.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:12,556 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-17 23:53:12,900 - tools.web_tools - WARNING - Failed to search stackoverflow.blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:12,900 - tools.web_tools - DEBUG - Performing general search
+2025-01-17 23:53:13,208 - tools.web_tools - WARNING - Failed to perform general search: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:13,209 - tools.web_tools - INFO - Search completed successfully
+2025-01-17 23:53:13,215 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-17 23:53:29,879 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 23:53:29,884 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-17 23:53:29,896 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-17 23:53:31,288 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 23:53:31,294 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-17 23:53:31,297 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB 6.0 new features and performance improvements documentation
+2025-01-17 23:53:31,297 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-17 23:53:31,630 - tools.web_tools - WARNING - Failed to search mongodb.com/blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:31,631 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-17 23:53:32,136 - tools.web_tools - WARNING - Failed to search www.mongodb.com/docs: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:32,137 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-17 23:53:32,432 - tools.web_tools - WARNING - Failed to search www.mongodb.com/developer: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:32,433 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-17 23:53:32,807 - tools.web_tools - WARNING - Failed to search www.mongodb.com/community: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:32,808 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-17 23:53:33,164 - tools.web_tools - WARNING - Failed to search github.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:33,165 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-17 23:53:33,701 - tools.web_tools - WARNING - Failed to search www.mongodb.com/changelog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:33,702 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-17 23:53:34,019 - tools.web_tools - WARNING - Failed to search engineering.mongodb.com: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:34,019 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-17 23:53:34,551 - tools.web_tools - WARNING - Failed to search medium.com/tag/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:34,551 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-17 23:53:34,919 - tools.web_tools - WARNING - Failed to search dev.to/t/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:34,919 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-17 23:53:35,231 - tools.web_tools - WARNING - Failed to search dzone.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:35,232 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-17 23:53:35,568 - tools.web_tools - WARNING - Failed to search infoq.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:35,568 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-17 23:53:35,865 - tools.web_tools - WARNING - Failed to search stackoverflow.blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:35,866 - tools.web_tools - DEBUG - Performing general search
+2025-01-17 23:53:36,181 - tools.web_tools - WARNING - Failed to perform general search: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:36,181 - tools.web_tools - INFO - Search completed successfully
+2025-01-17 23:53:36,188 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-17 23:53:37,458 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 23:53:37,466 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-17 23:53:37,476 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB 6.0 features documentation
+2025-01-17 23:53:37,476 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-17 23:53:37,893 - tools.web_tools - WARNING - Failed to search mongodb.com/blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:37,893 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-17 23:53:38,187 - tools.web_tools - WARNING - Failed to search www.mongodb.com/docs: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:38,187 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-17 23:53:38,487 - tools.web_tools - WARNING - Failed to search www.mongodb.com/developer: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:38,487 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-17 23:53:38,795 - tools.web_tools - WARNING - Failed to search www.mongodb.com/community: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:38,795 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-17 23:53:39,237 - tools.web_tools - WARNING - Failed to search github.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:39,238 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-17 23:53:39,534 - tools.web_tools - WARNING - Failed to search www.mongodb.com/changelog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:39,534 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-17 23:53:39,850 - tools.web_tools - WARNING - Failed to search engineering.mongodb.com: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:39,851 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-17 23:53:40,224 - tools.web_tools - WARNING - Failed to search medium.com/tag/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:40,224 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-17 23:53:40,511 - tools.web_tools - WARNING - Failed to search dev.to/t/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:40,511 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-17 23:53:40,784 - tools.web_tools - WARNING - Failed to search dzone.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:40,784 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-17 23:53:41,076 - tools.web_tools - WARNING - Failed to search infoq.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:41,076 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-17 23:53:41,386 - tools.web_tools - WARNING - Failed to search stackoverflow.blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:41,387 - tools.web_tools - DEBUG - Performing general search
+2025-01-17 23:53:41,670 - tools.web_tools - WARNING - Failed to perform general search: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:41,670 - tools.web_tools - INFO - Search completed successfully
+2025-01-17 23:53:41,676 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-17 23:53:43,183 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 23:53:43,187 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-17 23:53:43,191 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB 6.0 performance improvements features announcements
+2025-01-17 23:53:43,192 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-17 23:53:43,517 - tools.web_tools - WARNING - Failed to search mongodb.com/blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:43,518 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-17 23:53:43,859 - tools.web_tools - WARNING - Failed to search www.mongodb.com/docs: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:43,860 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-17 23:53:44,193 - tools.web_tools - WARNING - Failed to search www.mongodb.com/developer: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:44,194 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-17 23:53:44,483 - tools.web_tools - WARNING - Failed to search www.mongodb.com/community: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:44,484 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-17 23:53:44,809 - tools.web_tools - WARNING - Failed to search github.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:44,810 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-17 23:53:45,137 - tools.web_tools - WARNING - Failed to search www.mongodb.com/changelog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:45,138 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-17 23:53:45,443 - tools.web_tools - WARNING - Failed to search engineering.mongodb.com: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:45,444 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-17 23:53:45,777 - tools.web_tools - WARNING - Failed to search medium.com/tag/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:45,777 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-17 23:53:46,079 - tools.web_tools - WARNING - Failed to search dev.to/t/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:46,079 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-17 23:53:46,359 - tools.web_tools - WARNING - Failed to search dzone.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:46,359 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-17 23:53:46,685 - tools.web_tools - WARNING - Failed to search infoq.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:46,686 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-17 23:53:46,998 - tools.web_tools - WARNING - Failed to search stackoverflow.blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:46,999 - tools.web_tools - DEBUG - Performing general search
+2025-01-17 23:53:47,403 - tools.web_tools - WARNING - Failed to perform general search: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:47,403 - tools.web_tools - INFO - Search completed successfully
+2025-01-17 23:53:47,409 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-17 23:53:49,026 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 23:53:49,029 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-17 23:53:49,033 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB 6.0 new features performance improvements blog
+2025-01-17 23:53:49,034 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-17 23:53:49,516 - tools.web_tools - WARNING - Failed to search mongodb.com/blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:49,517 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-17 23:53:49,810 - tools.web_tools - WARNING - Failed to search www.mongodb.com/docs: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:49,810 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-17 23:53:50,161 - tools.web_tools - WARNING - Failed to search www.mongodb.com/developer: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:50,161 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-17 23:53:50,523 - tools.web_tools - WARNING - Failed to search www.mongodb.com/community: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:50,524 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-17 23:53:50,796 - tools.web_tools - WARNING - Failed to search github.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:50,796 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-17 23:53:51,143 - tools.web_tools - WARNING - Failed to search www.mongodb.com/changelog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:51,144 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-17 23:53:51,408 - tools.web_tools - WARNING - Failed to search engineering.mongodb.com: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:51,409 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-17 23:53:51,735 - tools.web_tools - WARNING - Failed to search medium.com/tag/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:51,735 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-17 23:53:52,062 - tools.web_tools - WARNING - Failed to search dev.to/t/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:52,062 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-17 23:53:52,395 - tools.web_tools - WARNING - Failed to search dzone.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:52,396 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-17 23:53:52,929 - tools.web_tools - WARNING - Failed to search infoq.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:52,929 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-17 23:53:53,242 - tools.web_tools - WARNING - Failed to search stackoverflow.blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:53,243 - tools.web_tools - DEBUG - Performing general search
+2025-01-17 23:53:53,522 - tools.web_tools - WARNING - Failed to perform general search: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:53,522 - tools.web_tools - INFO - Search completed successfully
+2025-01-17 23:53:53,528 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-17 23:53:54,664 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 23:53:54,667 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-17 23:53:54,669 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB 6.0 release notes features performance improvements
+2025-01-17 23:53:54,669 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-17 23:53:54,980 - tools.web_tools - WARNING - Failed to search mongodb.com/blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:54,981 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-17 23:53:55,372 - tools.web_tools - WARNING - Failed to search www.mongodb.com/docs: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:55,373 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-17 23:53:55,673 - tools.web_tools - WARNING - Failed to search www.mongodb.com/developer: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:55,673 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-17 23:53:55,970 - tools.web_tools - WARNING - Failed to search www.mongodb.com/community: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:55,970 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-17 23:53:56,467 - tools.web_tools - WARNING - Failed to search github.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:56,467 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-17 23:53:56,763 - tools.web_tools - WARNING - Failed to search www.mongodb.com/changelog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:56,764 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-17 23:53:57,043 - tools.web_tools - WARNING - Failed to search engineering.mongodb.com: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:57,043 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-17 23:53:57,390 - tools.web_tools - WARNING - Failed to search medium.com/tag/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:57,393 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-17 23:53:57,717 - tools.web_tools - WARNING - Failed to search dev.to/t/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:57,718 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-17 23:53:58,009 - tools.web_tools - WARNING - Failed to search dzone.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:58,009 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-17 23:53:58,279 - tools.web_tools - WARNING - Failed to search infoq.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:58,280 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-17 23:53:58,578 - tools.web_tools - WARNING - Failed to search stackoverflow.blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:58,578 - tools.web_tools - DEBUG - Performing general search
+2025-01-17 23:53:58,954 - tools.web_tools - WARNING - Failed to perform general search: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:53:58,955 - tools.web_tools - INFO - Search completed successfully
+2025-01-17 23:53:58,959 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-17 23:54:00,055 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 23:54:00,074 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-17 23:54:00,076 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB 6.0 release notes features improvements
+2025-01-17 23:54:00,077 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-17 23:54:00,341 - tools.web_tools - WARNING - Failed to search mongodb.com/blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:00,342 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-17 23:54:00,648 - tools.web_tools - WARNING - Failed to search www.mongodb.com/docs: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:00,649 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-17 23:54:00,935 - tools.web_tools - WARNING - Failed to search www.mongodb.com/developer: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:00,936 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-17 23:54:01,419 - tools.web_tools - WARNING - Failed to search www.mongodb.com/community: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:01,419 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-17 23:54:01,776 - tools.web_tools - WARNING - Failed to search github.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:01,777 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-17 23:54:02,130 - tools.web_tools - WARNING - Failed to search www.mongodb.com/changelog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:02,132 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-17 23:54:02,620 - tools.web_tools - WARNING - Failed to search engineering.mongodb.com: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:02,621 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-17 23:54:02,909 - tools.web_tools - WARNING - Failed to search medium.com/tag/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:02,910 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-17 23:54:03,301 - tools.web_tools - WARNING - Failed to search dev.to/t/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:03,301 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-17 23:54:03,604 - tools.web_tools - WARNING - Failed to search dzone.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:03,605 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-17 23:54:03,961 - tools.web_tools - WARNING - Failed to search infoq.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:03,962 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-17 23:54:04,453 - tools.web_tools - WARNING - Failed to search stackoverflow.blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:04,454 - tools.web_tools - DEBUG - Performing general search
+2025-01-17 23:54:04,742 - tools.web_tools - WARNING - Failed to perform general search: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:04,743 - tools.web_tools - INFO - Search completed successfully
+2025-01-17 23:54:04,750 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-17 23:54:05,968 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 23:54:05,971 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-17 23:54:05,974 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB 6.0 new features performance enhancements release
+2025-01-17 23:54:05,974 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-17 23:54:06,493 - tools.web_tools - WARNING - Failed to search mongodb.com/blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:06,493 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-17 23:54:06,796 - tools.web_tools - WARNING - Failed to search www.mongodb.com/docs: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:06,797 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-17 23:54:07,159 - tools.web_tools - WARNING - Failed to search www.mongodb.com/developer: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:07,160 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-17 23:54:07,472 - tools.web_tools - WARNING - Failed to search www.mongodb.com/community: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:07,472 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-17 23:54:07,972 - tools.web_tools - WARNING - Failed to search github.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:07,975 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-17 23:54:08,291 - tools.web_tools - WARNING - Failed to search www.mongodb.com/changelog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:08,291 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-17 23:54:08,688 - tools.web_tools - WARNING - Failed to search engineering.mongodb.com: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:08,688 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-17 23:54:08,966 - tools.web_tools - WARNING - Failed to search medium.com/tag/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:08,966 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-17 23:54:09,326 - tools.web_tools - WARNING - Failed to search dev.to/t/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:09,327 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-17 23:54:09,627 - tools.web_tools - WARNING - Failed to search dzone.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:09,628 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-17 23:54:09,938 - tools.web_tools - WARNING - Failed to search infoq.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:09,939 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-17 23:54:10,299 - tools.web_tools - WARNING - Failed to search stackoverflow.blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:10,299 - tools.web_tools - DEBUG - Performing general search
+2025-01-17 23:54:10,567 - tools.web_tools - WARNING - Failed to perform general search: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:10,567 - tools.web_tools - INFO - Search completed successfully
+2025-01-17 23:54:10,575 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-17 23:54:12,627 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 23:54:12,642 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-17 23:54:12,648 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB 6.0 new features performance improvements best practices
+2025-01-17 23:54:12,649 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-17 23:54:12,938 - tools.web_tools - WARNING - Failed to search mongodb.com/blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:12,938 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-17 23:54:13,263 - tools.web_tools - WARNING - Failed to search www.mongodb.com/docs: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:13,264 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-17 23:54:13,666 - tools.web_tools - WARNING - Failed to search www.mongodb.com/developer: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:13,667 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-17 23:54:14,022 - tools.web_tools - WARNING - Failed to search www.mongodb.com/community: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:14,022 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-17 23:54:14,299 - tools.web_tools - WARNING - Failed to search github.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:14,299 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-17 23:54:14,613 - tools.web_tools - WARNING - Failed to search www.mongodb.com/changelog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:14,613 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-17 23:54:14,946 - tools.web_tools - WARNING - Failed to search engineering.mongodb.com: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:14,946 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-17 23:54:15,223 - tools.web_tools - WARNING - Failed to search medium.com/tag/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:15,224 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-17 23:54:15,561 - tools.web_tools - WARNING - Failed to search dev.to/t/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:15,562 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-17 23:54:15,885 - tools.web_tools - WARNING - Failed to search dzone.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:15,887 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-17 23:54:16,190 - tools.web_tools - WARNING - Failed to search infoq.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:16,191 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-17 23:54:16,459 - tools.web_tools - WARNING - Failed to search stackoverflow.blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:16,459 - tools.web_tools - DEBUG - Performing general search
+2025-01-17 23:54:16,754 - tools.web_tools - WARNING - Failed to perform general search: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:16,754 - tools.web_tools - INFO - Search completed successfully
+2025-01-17 23:54:16,760 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-17 23:54:18,040 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 23:54:18,046 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-17 23:54:18,050 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB 6.0 features examples metrics best practices
+2025-01-17 23:54:18,051 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-17 23:54:18,552 - tools.web_tools - WARNING - Failed to search mongodb.com/blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:18,553 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-17 23:54:18,910 - tools.web_tools - WARNING - Failed to search www.mongodb.com/docs: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:18,911 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-17 23:54:19,223 - tools.web_tools - WARNING - Failed to search www.mongodb.com/developer: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:19,224 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-17 23:54:19,580 - tools.web_tools - WARNING - Failed to search www.mongodb.com/community: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:19,581 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-17 23:54:19,875 - tools.web_tools - WARNING - Failed to search github.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:19,875 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-17 23:54:20,347 - tools.web_tools - WARNING - Failed to search www.mongodb.com/changelog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:20,348 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-17 23:54:20,708 - tools.web_tools - WARNING - Failed to search engineering.mongodb.com: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:20,708 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-17 23:54:21,002 - tools.web_tools - WARNING - Failed to search medium.com/tag/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:21,002 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-17 23:54:21,315 - tools.web_tools - WARNING - Failed to search dev.to/t/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:21,316 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-17 23:54:21,694 - tools.web_tools - WARNING - Failed to search dzone.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:21,695 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-17 23:54:22,108 - tools.web_tools - WARNING - Failed to search infoq.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:22,110 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-17 23:54:22,460 - tools.web_tools - WARNING - Failed to search stackoverflow.blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:22,461 - tools.web_tools - DEBUG - Performing general search
+2025-01-17 23:54:22,900 - tools.web_tools - WARNING - Failed to perform general search: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:22,900 - tools.web_tools - INFO - Search completed successfully
+2025-01-17 23:54:22,907 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-17 23:54:24,377 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 23:54:24,387 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-17 23:54:24,394 - tools.web_tools - INFO - Performing enhanced search for query: latest updates MongoDB 6.0 features performance improvements
+2025-01-17 23:54:24,395 - tools.web_tools - DEBUG - Searching priority source: mongodb.com/blog
+2025-01-17 23:54:24,708 - tools.web_tools - WARNING - Failed to search mongodb.com/blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:24,709 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/docs
+2025-01-17 23:54:25,038 - tools.web_tools - WARNING - Failed to search www.mongodb.com/docs: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:25,039 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/developer
+2025-01-17 23:54:25,340 - tools.web_tools - WARNING - Failed to search www.mongodb.com/developer: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:25,341 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/community
+2025-01-17 23:54:25,636 - tools.web_tools - WARNING - Failed to search www.mongodb.com/community: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:25,637 - tools.web_tools - DEBUG - Searching priority source: github.com/mongodb
+2025-01-17 23:54:25,927 - tools.web_tools - WARNING - Failed to search github.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:25,928 - tools.web_tools - DEBUG - Searching priority source: www.mongodb.com/changelog
+2025-01-17 23:54:26,332 - tools.web_tools - WARNING - Failed to search www.mongodb.com/changelog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:26,333 - tools.web_tools - DEBUG - Searching priority source: engineering.mongodb.com
+2025-01-17 23:54:26,614 - tools.web_tools - WARNING - Failed to search engineering.mongodb.com: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:26,615 - tools.web_tools - DEBUG - Searching tech source: medium.com/tag/mongodb
+2025-01-17 23:54:26,972 - tools.web_tools - WARNING - Failed to search medium.com/tag/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:26,973 - tools.web_tools - DEBUG - Searching tech source: dev.to/t/mongodb
+2025-01-17 23:54:27,366 - tools.web_tools - WARNING - Failed to search dev.to/t/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:27,366 - tools.web_tools - DEBUG - Searching tech source: dzone.com/mongodb
+2025-01-17 23:54:27,653 - tools.web_tools - WARNING - Failed to search dzone.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:27,653 - tools.web_tools - DEBUG - Searching tech source: infoq.com/mongodb
+2025-01-17 23:54:28,034 - tools.web_tools - WARNING - Failed to search infoq.com/mongodb: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:28,034 - tools.web_tools - DEBUG - Searching tech source: stackoverflow.blog
+2025-01-17 23:54:28,297 - tools.web_tools - WARNING - Failed to search stackoverflow.blog: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:28,298 - tools.web_tools - DEBUG - Performing general search
+2025-01-17 23:54:28,587 - tools.web_tools - WARNING - Failed to perform general search: Got error from SerpAPI: Invalid API key. Your API key should be here: https://serpapi.com/manage-api-key
+2025-01-17 23:54:28,587 - tools.web_tools - INFO - Search completed successfully
+2025-01-17 23:54:28,592 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-17 23:54:30,392 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 23:54:30,405 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-17 23:54:30,408 - tools.web_tools - INFO - Scraping content from URL: https://docs.mongodb.com/manual/release-notes/6.0/
+2025-01-17 23:54:30,409 - tools.web_tools - DEBUG - Making HTTP request
+2025-01-17 23:54:31,573 - tools.web_tools - DEBUG - Parsing HTML content
+2025-01-17 23:54:31,663 - tools.web_tools - DEBUG - Removing unwanted elements
+2025-01-17 23:54:31,686 - tools.web_tools - DEBUG - Identifying main content area
+2025-01-17 23:54:31,711 - tools.web_tools - DEBUG - Found main content using selector: main
+2025-01-17 23:54:31,712 - tools.web_tools - DEBUG - Extracting and formatting text content
+2025-01-17 23:54:31,713 - tools.web_tools - INFO - Successfully scraped and processed content
+2025-01-17 23:54:31,715 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-17 23:54:45,146 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 23:54:45,154 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-17 23:54:45,252 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-17 23:55:05,170 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 23:55:05,251 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-17 23:55:05,406 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-17 23:56:13,780 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-17 23:56:13,789 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-17 23:56:14,018 - __main__ - INFO - Finalizing and saving blog...
+2025-01-17 23:56:14,018 - crew.blog_crew - DEBUG - Callback executed: Saving final blog
+2025-01-17 23:56:14,019 - crew.blog_crew - DEBUG - Extracting title from content
+2025-01-17 23:56:14,019 - crew.blog_crew - DEBUG - Found title with '# ': 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-17 23:56:14,019 - crew.blog_crew - INFO - Extracted blog title: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-17 23:56:14,020 - agents.editor - INFO - Saving blog post with title: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-17 23:56:14,020 - agents.editor - DEBUG - Created blogs directory: data/blogs
+2025-01-17 23:56:14,020 - agents.editor - DEBUG - Created metadata: {'title': '🎉 Exploring the Exciting New Features of MongoDB 6.0', 'date': '2025-01-17', 'tags': ['mongodb', 'databases', 'technical'], 'description': '```markdown # 🎉 Exploring the Exciting New Features of MongoDB 6.0'}
+2025-01-17 23:56:14,020 - agents.editor - DEBUG - Generated filepath: data/blogs/🎉-exploring-the-exciting-new-features-of-mongodb-6.0.md
+2025-01-17 23:56:14,021 - agents.editor - INFO - Blog post saved successfully at: data/blogs/🎉-exploring-the-exciting-new-features-of-mongodb-6.0.md
+2025-01-17 23:56:14,021 - crew.blog_crew - INFO - Blog saved successfully at: data/blogs/🎉-exploring-the-exciting-new-features-of-mongodb-6.0.md
+2025-01-17 23:56:14,022 - __main__ - INFO - ✅ Blog generated successfully!
+2025-01-17 23:56:14,022 - __main__ - INFO - Blog generation completed. File saved at: data/blogs/🎉-exploring-the-exciting-new-features-of-mongodb-6.0.md
+2025-01-17 23:56:14,022 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-17 23:56:14,027 - __main__ - INFO - Entering view_blogs function
+2025-01-17 23:56:14,027 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-17 23:56:14,027 - crew.blog_crew - INFO - Found 4 blog files
+2025-01-17 23:56:14,027 - __main__ - INFO - Found 4 existing blogs
+2025-01-17 23:56:14,029 - __main__ - INFO - Displaying blog: 🎉 Exploring the Exciting New Features of MongoDB 6.0 (2025-01-17)
+2025-01-17 23:56:14,030 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-18 13:35:48,965 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-18 13:35:48,965 - __main__ - INFO - Entering create_blog function
+2025-01-18 13:35:48,966 - __main__ - INFO - Entering view_blogs function
+2025-01-18 13:35:48,967 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:35:48,967 - crew.blog_crew - INFO - Found 4 blog files
+2025-01-18 13:35:48,967 - __main__ - INFO - Found 4 existing blogs
+2025-01-18 13:35:48,969 - __main__ - INFO - Displaying blog: 🎉 Exploring the Exciting New Features of MongoDB 6.0 (2025-01-17)
+2025-01-18 13:35:48,969 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-18 13:36:35,751 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-18 13:36:35,756 - __main__ - INFO - Entering create_blog function
+2025-01-18 13:36:35,761 - __main__ - INFO - Entering view_blogs function
+2025-01-18 13:36:35,762 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:36:35,764 - crew.blog_crew - INFO - Found 4 blog files
+2025-01-18 13:36:35,764 - __main__ - INFO - Found 4 existing blogs
+2025-01-18 13:36:35,770 - __main__ - INFO - Displaying blog: 🎉 Exploring the Exciting New Features of MongoDB 6.0 (2025-01-17)
+2025-01-18 13:36:35,770 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-18 13:36:35,924 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-18 13:36:35,925 - __main__ - INFO - Entering create_blog function
+2025-01-18 13:36:35,926 - __main__ - INFO - Starting blog generation process with topic: Building Gen AI with MongoDB
+2025-01-18 13:36:35,926 - __main__ - INFO - 🎯 Initializing blog generation process...
+2025-01-18 13:36:35,926 - crew.blog_crew - INFO - Initializing BlogCrew with topic: Building Gen AI with MongoDB
+2025-01-18 13:36:35,927 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-18 13:36:35,927 - agents.planner - INFO - Creating PlannerAgent
+2025-01-18 13:36:35,927 - tools.web_tools - INFO - Initializing web search tool
+2025-01-18 13:36:35,935 - agents.planner - INFO - PlannerAgent created successfully
+2025-01-18 13:36:35,935 - agents.researcher - INFO - Creating ResearcherAgent
+2025-01-18 13:36:35,935 - tools.web_tools - INFO - Initializing web search tool
+2025-01-18 13:36:35,937 - agents.researcher - INFO - ResearcherAgent created successfully with 2 tools
+2025-01-18 13:36:35,938 - agents.writer - INFO - Creating WriterAgent
+2025-01-18 13:36:35,938 - agents.writer - INFO - WriterAgent created successfully
+2025-01-18 13:36:35,938 - agents.editor - INFO - Creating EditorAgent
+2025-01-18 13:36:35,938 - agents.editor - INFO - EditorAgent created successfully
+2025-01-18 13:36:35,938 - crew.blog_crew - INFO - All agents created successfully
+2025-01-18 13:36:35,939 - __main__ - INFO - 🤔 Analyzing topic and planning blog structure...
+2025-01-18 13:36:35,939 - __main__ - INFO - 📚 Researching MongoDB documentation and best practices...
+2025-01-18 13:36:35,940 - __main__ - INFO - ✍️ Writing blog draft with technical insights...
+2025-01-18 13:36:35,941 - __main__ - INFO - 🔍 Reviewing technical accuracy and code examples...
+2025-01-18 13:36:35,941 - __main__ - INFO - ✨ Polishing content and formatting...
+2025-01-18 13:36:35,942 - __main__ - INFO - Creating blog generation tasks...
+2025-01-18 13:36:35,942 - crew.blog_crew - INFO - Creating blog generation tasks
+2025-01-18 13:36:35,942 - crew.blog_crew - DEBUG - Creating planning task
+2025-01-18 13:36:35,942 - agents.planner - INFO - Creating task prompt with topic: Building Gen AI with MongoDB
+2025-01-18 13:36:35,942 - agents.planner - DEBUG - Created topic-specific prompt
+2025-01-18 13:36:35,942 - agents.planner - INFO - Task prompt created successfully
+2025-01-18 13:36:35,943 - crew.blog_crew - INFO - Planning task created successfully
+2025-01-18 13:36:35,943 - crew.blog_crew - DEBUG - Planning task output: blog_outline.md
+2025-01-18 13:36:35,943 - crew.blog_crew - DEBUG - Creating research task
+2025-01-18 13:36:35,943 - agents.researcher - INFO - Creating research task prompt
+2025-01-18 13:36:35,943 - agents.researcher - DEBUG - Outline length: 15 characters
+2025-01-18 13:36:35,943 - agents.researcher - INFO - Research task prompt created successfully
+2025-01-18 13:36:35,943 - crew.blog_crew - DEBUG - Creating writing task
+2025-01-18 13:36:35,943 - agents.writer - INFO - Creating writing task prompt
+2025-01-18 13:36:35,943 - agents.writer - DEBUG - Outline length: 15 characters
+2025-01-18 13:36:35,943 - agents.writer - DEBUG - Research length: 19 characters
+2025-01-18 13:36:35,943 - agents.writer - INFO - Writing task prompt created successfully
+2025-01-18 13:36:35,944 - crew.blog_crew - DEBUG - Creating editing task
+2025-01-18 13:36:35,944 - crew.blog_crew - DEBUG - Extracting title from content
+2025-01-18 13:36:35,944 - crew.blog_crew - DEBUG - No title found, using default: MongoDB Technical Blog
+2025-01-18 13:36:35,944 - agents.editor - INFO - Creating editing task prompt for title: MongoDB Technical Blog
+2025-01-18 13:36:35,944 - agents.editor - DEBUG - Blog content length: 13 characters
+2025-01-18 13:36:35,944 - agents.editor - INFO - Editing task prompt created successfully
+2025-01-18 13:36:35,944 - crew.blog_crew - INFO - Created 4 tasks successfully
+2025-01-18 13:36:35,949 - __main__ - INFO - Starting crew tasks execution...
+2025-01-18 13:36:35,949 - crew.blog_crew - INFO - Kicking off crew tasks
+2025-01-18 13:36:35,959 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:36:38,119 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:36:38,142 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:36:38,146 - tools.web_tools - INFO - Performing enhanced search for query: Building Generative AI with MongoDB latest developments updates best practices
+2025-01-18 13:36:39,702 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:36:53,372 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:36:53,380 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:36:53,396 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:36:57,829 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:36:57,834 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:36:57,859 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:37:01,865 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:37:01,873 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:37:01,896 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:37:03,355 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:37:03,359 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:37:03,368 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:37:15,405 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:37:15,411 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:37:15,502 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:37:30,895 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:37:30,903 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:37:30,984 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:37:44,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:37:44,115 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:37:44,240 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:38:13,520 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:38:13,527 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:38:13,668 - __main__ - INFO - Finalizing and saving blog...
+2025-01-18 13:38:13,668 - crew.blog_crew - DEBUG - Callback executed: Saving final blog
+2025-01-18 13:38:13,669 - crew.blog_crew - DEBUG - Extracting title from content
+2025-01-18 13:38:13,669 - crew.blog_crew - DEBUG - Found title with '# ': 🚀 Building Generative AI with MongoDB
+2025-01-18 13:38:13,669 - crew.blog_crew - INFO - Extracted blog title: 🚀 Building Generative AI with MongoDB
+2025-01-18 13:38:13,669 - agents.editor - INFO - Saving blog post with title: 🚀 Building Generative AI with MongoDB
+2025-01-18 13:38:13,669 - agents.editor - DEBUG - Created blogs directory: data/blogs
+2025-01-18 13:38:13,669 - agents.editor - DEBUG - Created metadata: {'title': '🚀 Building Generative AI with MongoDB', 'date': '2025-01-18', 'tags': ['mongodb', 'databases', 'technical'], 'description': '```markdown # 🚀 Building Generative AI with MongoDB'}
+2025-01-18 13:38:13,669 - agents.editor - DEBUG - Generated filepath: data/blogs/🚀-building-generative-ai-with-mongodb.md
+2025-01-18 13:38:13,670 - agents.editor - INFO - Blog post saved successfully at: data/blogs/🚀-building-generative-ai-with-mongodb.md
+2025-01-18 13:38:13,670 - crew.blog_crew - INFO - Blog saved successfully at: data/blogs/🚀-building-generative-ai-with-mongodb.md
+2025-01-18 13:38:13,671 - __main__ - INFO - ✅ Blog generated successfully!
+2025-01-18 13:38:13,671 - __main__ - INFO - Blog generation completed. File saved at: data/blogs/🚀-building-generative-ai-with-mongodb.md
+2025-01-18 13:38:13,671 - __main__ - INFO - Displaying blog preview with metadata: 🚀 Building Generative AI with MongoDB
+2025-01-18 13:38:13,673 - __main__ - INFO - Entering view_blogs function
+2025-01-18 13:38:13,673 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:38:13,673 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:38:13,673 - __main__ - INFO - Found 5 existing blogs
+2025-01-18 13:38:13,675 - __main__ - INFO - Displaying blog: 🎉 Exploring the Exciting New Features of MongoDB 6.0 (2025-01-17)
+2025-01-18 13:38:13,675 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-18 13:43:24,605 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-18 13:43:24,605 - __main__ - INFO - Entering create_blog function
+2025-01-18 13:43:24,606 - __main__ - INFO - Entering view_blogs function
+2025-01-18 13:43:24,607 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:43:24,607 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:43:24,607 - __main__ - INFO - Found 5 existing blogs
+2025-01-18 13:43:24,609 - __main__ - INFO - Displaying blog: 🎉 Exploring the Exciting New Features of MongoDB 6.0 (2025-01-17)
+2025-01-18 13:43:24,609 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-18 13:43:28,727 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-18 13:43:28,730 - __main__ - INFO - Entering create_blog function
+2025-01-18 13:43:28,732 - __main__ - INFO - Entering view_blogs function
+2025-01-18 13:43:28,733 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:43:28,734 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:43:28,735 - __main__ - INFO - Found 5 existing blogs
+2025-01-18 13:43:28,738 - __main__ - INFO - Displaying blog: 🎉 Exploring the Exciting New Features of MongoDB 6.0 (2025-01-17)
+2025-01-18 13:43:28,738 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-18 13:43:33,018 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-18 13:43:33,025 - __main__ - INFO - Entering create_blog function
+2025-01-18 13:43:33,032 - __main__ - INFO - Entering view_blogs function
+2025-01-18 13:43:33,033 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:43:33,033 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:43:33,033 - __main__ - INFO - Found 5 existing blogs
+2025-01-18 13:43:33,040 - __main__ - INFO - Displaying blog: 🎉 Exploring the Exciting New Features of MongoDB 6.0 (2025-01-17)
+2025-01-18 13:43:33,043 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-18 13:44:03,662 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-18 13:44:03,662 - __main__ - INFO - Entering create_blog function
+2025-01-18 13:44:03,663 - __main__ - INFO - Entering view_blogs function
+2025-01-18 13:44:03,664 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:44:03,664 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:44:03,664 - __main__ - INFO - Found 5 existing blogs
+2025-01-18 13:44:03,666 - __main__ - INFO - Displaying blog: 🎉 Exploring the Exciting New Features of MongoDB 6.0 (2025-01-17)
+2025-01-18 13:44:03,666 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-18 13:44:13,958 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-18 13:44:13,959 - __main__ - INFO - Entering create_blog function
+2025-01-18 13:44:13,961 - __main__ - INFO - Entering view_blogs function
+2025-01-18 13:44:13,961 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:44:13,961 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:44:13,962 - __main__ - INFO - Found 5 existing blogs
+2025-01-18 13:44:13,968 - __main__ - INFO - Displaying blog: 🎉 Exploring the Exciting New Features of MongoDB 6.0 (2025-01-17)
+2025-01-18 13:44:13,972 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-18 13:45:20,912 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-18 13:45:20,913 - __main__ - INFO - Entering create_blog function
+2025-01-18 13:45:20,914 - __main__ - INFO - Entering view_blogs function
+2025-01-18 13:45:20,914 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:45:20,915 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:45:20,915 - __main__ - INFO - Found 5 existing blogs
+2025-01-18 13:45:20,916 - __main__ - INFO - Displaying blog: 🎉 Exploring the Exciting New Features of MongoDB 6.0 (2025-01-17)
+2025-01-18 13:45:20,917 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-18 13:45:25,278 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-18 13:45:25,286 - __main__ - INFO - Entering create_blog function
+2025-01-18 13:45:25,294 - __main__ - INFO - Entering view_blogs function
+2025-01-18 13:45:25,295 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:45:25,295 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:45:25,296 - __main__ - INFO - Found 5 existing blogs
+2025-01-18 13:45:25,304 - __main__ - INFO - Displaying blog: 🎉 Exploring the Exciting New Features of MongoDB 6.0 (2025-01-17)
+2025-01-18 13:45:25,312 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-18 13:45:37,013 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-18 13:45:37,014 - __main__ - INFO - Entering create_blog function
+2025-01-18 13:45:37,015 - __main__ - INFO - Entering view_blogs function
+2025-01-18 13:45:37,015 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:45:37,016 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:45:37,016 - __main__ - INFO - Found 5 existing blogs
+2025-01-18 13:45:37,017 - __main__ - INFO - Displaying blog: 🎉 Exploring the Exciting New Features of MongoDB 6.0 (2025-01-17)
+2025-01-18 13:45:37,017 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-18 13:45:40,835 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-18 13:45:40,839 - __main__ - INFO - Entering create_blog function
+2025-01-18 13:45:40,844 - __main__ - INFO - Entering view_blogs function
+2025-01-18 13:45:40,844 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:45:40,844 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:45:40,845 - __main__ - INFO - Found 5 existing blogs
+2025-01-18 13:45:40,852 - __main__ - INFO - Displaying blog: 🎉 Exploring the Exciting New Features of MongoDB 6.0 (2025-01-17)
+2025-01-18 13:45:40,855 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-18 13:46:47,063 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-18 13:46:47,064 - __main__ - INFO - Entering create_blog function
+2025-01-18 13:46:47,065 - __main__ - INFO - Entering view_blogs function
+2025-01-18 13:46:47,065 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:46:47,066 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:46:47,066 - __main__ - INFO - Found 5 existing blogs
+2025-01-18 13:46:47,067 - __main__ - INFO - Displaying blog: 🎉 Exploring the Exciting New Features of MongoDB 6.0 (2025-01-17)
+2025-01-18 13:46:47,068 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-18 13:47:12,464 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-18 13:47:12,468 - __main__ - INFO - Entering create_blog function
+2025-01-18 13:47:12,472 - __main__ - INFO - Entering view_blogs function
+2025-01-18 13:47:12,472 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:47:12,474 - crew.blog_crew - INFO - Found 5 blog files
+2025-01-18 13:47:12,474 - __main__ - INFO - Found 5 existing blogs
+2025-01-18 13:47:12,477 - __main__ - INFO - Displaying blog: 🎉 Exploring the Exciting New Features of MongoDB 6.0 (2025-01-17)
+2025-01-18 13:47:12,479 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-18 13:47:12,571 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-18 13:47:12,571 - __main__ - INFO - Entering create_blog function
+2025-01-18 13:47:12,572 - __main__ - INFO - Starting blog generation process with topic:  Building modern generative ai applications with MongoDB
+2025-01-18 13:47:12,573 - __main__ - INFO - 🎯 Initializing blog generation process...
+2025-01-18 13:47:12,573 - crew.blog_crew - INFO - Initializing BlogCrew with topic:  Building modern generative ai applications with MongoDB
+2025-01-18 13:47:12,573 - crew.blog_crew - DEBUG - Creating agents...
+2025-01-18 13:47:12,574 - agents.planner - INFO - Creating PlannerAgent
+2025-01-18 13:47:12,574 - tools.web_tools - INFO - Initializing web search tool
+2025-01-18 13:47:12,576 - agents.planner - INFO - PlannerAgent created successfully
+2025-01-18 13:47:12,576 - agents.researcher - INFO - Creating ResearcherAgent
+2025-01-18 13:47:12,576 - tools.web_tools - INFO - Initializing web search tool
+2025-01-18 13:47:12,577 - agents.researcher - INFO - ResearcherAgent created successfully with 2 tools
+2025-01-18 13:47:12,577 - agents.writer - INFO - Creating WriterAgent
+2025-01-18 13:47:12,578 - agents.writer - INFO - WriterAgent created successfully
+2025-01-18 13:47:12,578 - agents.editor - INFO - Creating EditorAgent
+2025-01-18 13:47:12,578 - agents.editor - INFO - EditorAgent created successfully
+2025-01-18 13:47:12,578 - crew.blog_crew - INFO - All agents created successfully
+2025-01-18 13:47:12,579 - __main__ - INFO - 🤔 Analyzing topic and planning blog structure...
+2025-01-18 13:47:12,579 - __main__ - INFO - 📚 Researching MongoDB documentation and best practices...
+2025-01-18 13:47:12,579 - __main__ - INFO - ✍️ Writing blog draft with technical insights...
+2025-01-18 13:47:12,580 - __main__ - INFO - 🔍 Reviewing technical accuracy and code examples...
+2025-01-18 13:47:12,580 - __main__ - INFO - ✨ Polishing content and formatting...
+2025-01-18 13:47:12,580 - __main__ - INFO - Creating blog generation tasks...
+2025-01-18 13:47:12,581 - crew.blog_crew - INFO - Creating blog generation tasks
+2025-01-18 13:47:12,581 - crew.blog_crew - DEBUG - Creating planning task
+2025-01-18 13:47:12,581 - agents.planner - INFO - Creating task prompt with topic:  Building modern generative ai applications with MongoDB
+2025-01-18 13:47:12,581 - agents.planner - DEBUG - Created topic-specific prompt
+2025-01-18 13:47:12,581 - agents.planner - INFO - Task prompt created successfully
+2025-01-18 13:47:12,581 - crew.blog_crew - INFO - Planning task created successfully
+2025-01-18 13:47:12,581 - crew.blog_crew - DEBUG - Planning task output: blog_outline.md
+2025-01-18 13:47:12,581 - crew.blog_crew - DEBUG - Creating research task
+2025-01-18 13:47:12,582 - agents.researcher - INFO - Creating research task prompt
+2025-01-18 13:47:12,582 - agents.researcher - DEBUG - Outline length: 15 characters
+2025-01-18 13:47:12,582 - agents.researcher - INFO - Research task prompt created successfully
+2025-01-18 13:47:12,582 - crew.blog_crew - DEBUG - Creating writing task
+2025-01-18 13:47:12,582 - agents.writer - INFO - Creating writing task prompt
+2025-01-18 13:47:12,582 - agents.writer - DEBUG - Outline length: 15 characters
+2025-01-18 13:47:12,582 - agents.writer - DEBUG - Research length: 19 characters
+2025-01-18 13:47:12,582 - agents.writer - INFO - Writing task prompt created successfully
+2025-01-18 13:47:12,583 - crew.blog_crew - DEBUG - Creating editing task
+2025-01-18 13:47:12,583 - crew.blog_crew - DEBUG - Extracting title from content
+2025-01-18 13:47:12,583 - crew.blog_crew - DEBUG - No title found, using default: MongoDB Technical Blog
+2025-01-18 13:47:12,583 - agents.editor - INFO - Creating editing task prompt for title: MongoDB Technical Blog
+2025-01-18 13:47:12,583 - agents.editor - DEBUG - Blog content length: 13 characters
+2025-01-18 13:47:12,583 - agents.editor - INFO - Editing task prompt created successfully
+2025-01-18 13:47:12,583 - crew.blog_crew - INFO - Created 4 tasks successfully
+2025-01-18 13:47:12,588 - __main__ - INFO - Starting crew tasks execution...
+2025-01-18 13:47:12,588 - crew.blog_crew - INFO - Kicking off crew tasks
+2025-01-18 13:47:12,599 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:47:14,055 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:47:14,077 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:47:14,081 - tools.web_tools - INFO - Performing enhanced search for query: Building modern generative AI applications with MongoDB 2023 developments best practices
+2025-01-18 13:47:15,645 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:47:24,723 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:47:24,726 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:47:24,735 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:47:26,464 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:47:26,468 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:47:26,472 - tools.web_tools - INFO - Performing enhanced search for query: generative AI significance modern technology overview MongoDB relevance large datasets
+2025-01-18 13:47:28,027 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:47:28,923 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:47:28,928 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:47:28,934 - tools.web_tools - INFO - Scraping content from URL: https://www.mongodb.com/solutions/use-cases/artificial-intelligence
+2025-01-18 13:47:28,934 - tools.web_tools - DEBUG - Making HTTP request
+2025-01-18 13:47:30,919 - tools.web_tools - DEBUG - Parsing HTML content
+2025-01-18 13:47:30,947 - tools.web_tools - DEBUG - Removing unwanted elements
+2025-01-18 13:47:30,957 - tools.web_tools - DEBUG - Identifying main content area
+2025-01-18 13:47:30,963 - tools.web_tools - DEBUG - No specific content area found, using entire body
+2025-01-18 13:47:30,963 - tools.web_tools - DEBUG - Extracting and formatting text content
+2025-01-18 13:47:30,963 - tools.web_tools - INFO - Successfully scraped and processed content
+2025-01-18 13:47:30,965 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:47:31,690 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:47:31,694 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:47:31,699 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB Atlas setup for AI workloads
+2025-01-18 13:47:33,467 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:47:35,200 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:47:35,214 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:47:35,218 - tools.web_tools - INFO - Scraping content from URL: https://www.mongodb.com/docs/atlas/cluster-config/multi-cloud-distribution/
+2025-01-18 13:47:35,219 - tools.web_tools - DEBUG - Making HTTP request
+2025-01-18 13:47:36,879 - tools.web_tools - DEBUG - Parsing HTML content
+2025-01-18 13:47:36,949 - tools.web_tools - DEBUG - Removing unwanted elements
+2025-01-18 13:47:36,966 - tools.web_tools - DEBUG - Identifying main content area
+2025-01-18 13:47:36,980 - tools.web_tools - DEBUG - Found main content using selector: main
+2025-01-18 13:47:36,980 - tools.web_tools - DEBUG - Extracting and formatting text content
+2025-01-18 13:47:36,981 - tools.web_tools - INFO - Successfully scraped and processed content
+2025-01-18 13:47:36,983 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:47:38,076 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:47:38,081 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:47:38,086 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB data governance best practices for AI applications
+2025-01-18 13:47:39,684 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:47:40,636 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:47:40,640 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:47:40,645 - tools.web_tools - INFO - Scraping content from URL: https://www.mongodb.com/blog/post/data-governance-building-generative-ai-applications-mongodb
+2025-01-18 13:47:40,646 - tools.web_tools - DEBUG - Making HTTP request
+2025-01-18 13:47:41,732 - tools.web_tools - DEBUG - Parsing HTML content
+2025-01-18 13:47:41,750 - tools.web_tools - DEBUG - Removing unwanted elements
+2025-01-18 13:47:41,753 - tools.web_tools - DEBUG - Identifying main content area
+2025-01-18 13:47:41,759 - tools.web_tools - DEBUG - Found main content using selector: main
+2025-01-18 13:47:41,759 - tools.web_tools - DEBUG - Extracting and formatting text content
+2025-01-18 13:47:41,759 - tools.web_tools - INFO - Successfully scraped and processed content
+2025-01-18 13:47:41,763 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:47:42,953 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:47:42,958 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:47:42,968 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:47:43,871 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:47:43,879 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:47:43,884 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB best practices generative AI applications
+2025-01-18 13:47:46,130 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:47:47,173 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:47:47,177 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:47:47,182 - tools.web_tools - INFO - Scraping content from URL: https://www.mongodb.com/resources/solutions/use-cases/embedding-generative-ai
+2025-01-18 13:47:47,183 - tools.web_tools - DEBUG - Making HTTP request
+2025-01-18 13:47:48,513 - tools.web_tools - DEBUG - Parsing HTML content
+2025-01-18 13:47:48,552 - tools.web_tools - DEBUG - Removing unwanted elements
+2025-01-18 13:47:48,563 - tools.web_tools - DEBUG - Identifying main content area
+2025-01-18 13:47:48,566 - tools.web_tools - DEBUG - Found main content using selector: article
+2025-01-18 13:47:48,566 - tools.web_tools - DEBUG - Extracting and formatting text content
+2025-01-18 13:47:48,566 - tools.web_tools - INFO - Successfully scraped and processed content
+2025-01-18 13:47:48,571 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:47:49,531 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:47:49,537 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:47:49,541 - tools.web_tools - INFO - Performing enhanced search for query: MongoDB AI Applications Program features benefits
+2025-01-18 13:47:51,537 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:48:09,004 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:48:09,016 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:48:09,230 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:48:24,537 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:48:24,626 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:48:24,776 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:48:44,917 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:48:45,065 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:48:45,310 - LiteLLM - INFO - 
+LiteLLM completion() model= gpt-4o-mini; provider = openai
+2025-01-18 13:49:08,194 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-18 13:49:08,202 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-01-18 13:49:08,480 - __main__ - INFO - Finalizing and saving blog...
+2025-01-18 13:49:08,480 - crew.blog_crew - DEBUG - Callback executed: Saving final blog
+2025-01-18 13:49:08,480 - crew.blog_crew - DEBUG - Extracting title from content
+2025-01-18 13:49:08,480 - crew.blog_crew - DEBUG - Found title with '# ': Building Modern Generative AI Applications with MongoDB
+2025-01-18 13:49:08,480 - crew.blog_crew - INFO - Extracted blog title: Building Modern Generative AI Applications with MongoDB
+2025-01-18 13:49:08,480 - agents.editor - INFO - Saving blog post with title: Building Modern Generative AI Applications with MongoDB
+2025-01-18 13:49:08,481 - agents.editor - DEBUG - Created blogs directory: data/blogs
+2025-01-18 13:49:08,481 - agents.editor - DEBUG - Created metadata: {'title': 'Building Modern Generative AI Applications with MongoDB', 'date': '2025-01-18', 'tags': ['mongodb', 'databases', 'technical'], 'description': '```markdown # Building Modern Generative AI Applications with MongoDB'}
+2025-01-18 13:49:08,481 - agents.editor - DEBUG - Generated filepath: data/blogs/building-modern-generative-ai-applications-with-mongodb.md
+2025-01-18 13:49:08,482 - agents.editor - INFO - Blog post saved successfully at: data/blogs/building-modern-generative-ai-applications-with-mongodb.md
+2025-01-18 13:49:08,482 - crew.blog_crew - INFO - Blog saved successfully at: data/blogs/building-modern-generative-ai-applications-with-mongodb.md
+2025-01-18 13:49:08,482 - __main__ - INFO - ✅ Blog generated successfully!
+2025-01-18 13:49:08,482 - __main__ - INFO - Blog generation completed. File saved at: data/blogs/building-modern-generative-ai-applications-with-mongodb.md
+2025-01-18 13:49:08,482 - __main__ - INFO - Displaying blog preview with metadata: Building Modern Generative AI Applications with MongoDB
+2025-01-18 13:49:08,484 - __main__ - INFO - Entering view_blogs function
+2025-01-18 13:49:08,484 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:49:08,484 - crew.blog_crew - INFO - Found 6 blog files
+2025-01-18 13:49:08,485 - __main__ - INFO - Found 6 existing blogs
+2025-01-18 13:49:08,488 - __main__ - INFO - Displaying blog: 🎉 Exploring the Exciting New Features of MongoDB 6.0 (2025-01-17)
+2025-01-18 13:49:08,488 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-18 13:49:26,115 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-18 13:49:26,119 - __main__ - INFO - Entering create_blog function
+2025-01-18 13:49:26,125 - __main__ - INFO - Entering view_blogs function
+2025-01-18 13:49:26,126 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:49:26,127 - crew.blog_crew - INFO - Found 6 blog files
+2025-01-18 13:49:26,128 - __main__ - INFO - Found 6 existing blogs
+2025-01-18 13:49:26,158 - __main__ - INFO - Displaying blog: 🎉 Exploring the Exciting New Features of MongoDB 6.0 (2025-01-17)
+2025-01-18 13:49:26,159 - __main__ - INFO - Displaying blog preview with metadata: 🎉 Exploring the Exciting New Features of MongoDB 6.0
+2025-01-18 13:49:35,289 - __main__ - INFO - Starting MongoDB Blog Generator application
+2025-01-18 13:49:35,290 - __main__ - INFO - Entering create_blog function
+2025-01-18 13:49:35,294 - __main__ - INFO - Entering view_blogs function
+2025-01-18 13:49:35,294 - crew.blog_crew - INFO - Listing all generated blogs
+2025-01-18 13:49:35,295 - crew.blog_crew - INFO - Found 6 blog files
+2025-01-18 13:49:35,295 - __main__ - INFO - Found 6 existing blogs
+2025-01-18 13:49:35,297 - __main__ - INFO - Displaying blog: Building Modern Generative AI Applications with MongoDB (2025-01-18)
+2025-01-18 13:49:35,298 - __main__ - INFO - Displaying blog preview with metadata: Building Modern Generative AI Applications with MongoDB
